@@ -468,11 +468,11 @@ export const heroes = [
 
         <p style = "margin-bottom: 50px">
         Grisly and inhumane; the bodies were found with their ribcages ripped open... their innards picked apart as if by birds. Holliday tracked down the killer, a travelling folk musician that the media dubbed "The Troubadour", but when she confronted him he exploded into a murder of crows and flew away.
-        <p>
+        </p>
 
         <p>
         That was 6 months ago, and while the murders in central Illinois have stopped, Holliday's investigation has not. She believes that The Troubadour is travelling to New York, and when she finds him she's going to kill that evil son of a bitch.
-        <p>
+        </p>
         `,
         weaponInfo : `Holliday’s sheriff pistol, Doc’s Orders, is a one handed pistol she holds in her right hand. The echoes of the Wild West ring through every shot of her Doc’s Orders.`,
         weaponStats : {
@@ -521,7 +521,7 @@ export const heroes = [
         loreEntry : `
         <p>
         Like most teenagers; Infernus was wild, rebellious, and impetuous. Unlike most teenagers, Infernus was a creature from another plane and had a supernatural mastery over fire. Needless to say: his youth was filled with no small amount of arson, murder, and evidence disposal. But that was then. Now an adult, Infernus has mellowed out considerably. He’s happy working at a bar with good live music, and talking to interesting people. That being said when someone at the bar gets belligerent or violent, he’s not afraid to dust off the skills he once honed.
-        <p>
+        </p>
         `,
         weaponInfo : `Infernus’ finger gun, Incendiary Remarks, fires bullets of fire straight out of a finger gun that he makes. It is shot from his right hand, which is covered in what appears to be runic marks channeling his fire ability.`,
         weaponStats : {
@@ -541,7 +541,7 @@ export const heroes = [
             healthRegen: 2.0 ,
             moveSpeed: 8.3,
             sprintSpeed: 2.0, 
-            dashSpeed: 0.62 ,
+            dashSpeed: 0.7 ,
             stamina: 3
         },
         abilities: {
@@ -570,15 +570,15 @@ export const heroes = [
         loreEntry : `
         <p style="margin-bottom = 50px">
             The gargoyle didn't know what was happening when it sprang to life... just that a big human and a small human were being hurt. And so the gargoyle leapt to action, sending the attackers fleeing in horror. The small human said thank you and asked the gargoyle's name. The gargoyle didn't have one. And so the small human said, "I'm going to call you Ivy." The gargoyle, being covered in ivy at the time, thought it was a bit obvious, but decided to go along with it for the small human's sake.
-        <p>
+        </p>
 
         <p style="margin-bottom = 50px">
             The humans asked if Ivy would come home with them so they could show their appreciation, and so Ivy walked with them. That night she learned much. The family were called The Arroyo's. The little one, Sophia. Mofongo is what they called a plate of deliciousness. But most importantly, she learned that the people attacking them were called "The Mendoza Syndicate", and they were hurting people...nice people like The Arroyo's.
-        <p>
+        </p>
 
         <p>
             18 years have passed since the day the Arroyo's took Ivy home... and during that time she made it her mission to dismantle the Mendoza Syndicate and free Spanish Harlem from its grasp. However the thing about dedicating your life to a single pursuit for nearly 2 decades is that you don't really know what to do once you achieve it. For the first time in her life, Ivy is prepared to venture outside of Spanish Harlem and see what the world has to offer beyond vigilante justice.
-        <p>
+        </p>
         `,
         weaponInfo : `Protector’s Hand is a medium ranged gun resembling the design of a Sten gun with magazines on both sides of the weapon, and has a high firerate.`,
         weaponStats : {
@@ -620,6 +620,287 @@ export const heroes = [
             }
         },
         showcase : "images-&-videos/Ivy/showcase"
+    },
+    {
+        name : "Kelvin", 
+        description : "Kelvin, an undead arctic scientist, has a plethora of ice-based abilities that slows down opponents and can heal his teammates. His Frost Grenade has the capability to deal a chunk of Spirit Damage, but also can be used to heal teammates. If used offensively, his Frost Grenade explodes, creating a cloud of subzero air, slowing enemies. His floating Ice Path allows him maneuverability around the map, allowing him to manage waves and jungle denizens very efficiently, and can reach locations where he is needed quickly. His Arctic Beam shoots a beam of freezing energy that deals Spirit damage and gradually reduces the enemies movement and fire rates, but this sacrifices Kelvin’s movement speed. Kelvin’s Frozen Shelter creates a dome of ice that can not be entered or left until the duration of the ultimate has ended, and rapidly regenerates the health of Kelvin and his allies.",
+        loreEntry : `
+        <p style="margin-bottom = 50px">
+            A famed adventuring scientist, Kelvin made it his life's mission to explore and understand the unknowable. So naturally when rumors surfaced regarding an 8th astral gate hidden in the arctic, Kelvin couldn't build an expedition team fast enough. Assembling the brightest minds of his generation, Kelvin and his team set forth with much fanfare.
+        </p>
+
+        <p style="margin-bottom = 50px">
+            They never returned.
+        </p>
+
+        <p style="margin-bottom = 50px">
+            A year and a half later the frozen body of Kelvin was found by a fishing trawler, his corpse clutching a rock etched with glowing runes. The crew chipped away at the ice, looking to get a closer look at the body and were shocked when Kelvin opened his eyes. They checked his vitals... there was no pulse. They sought to bandage his open wounds... there was no blood. And yet, impossibly, Kelvin was "alive".
+        </p>
+
+        <p>
+            Having no memory of what happened on the expedition, Kelvin is looking for answers.
+        </p>
+            `,
+        weaponInfo : `Kelvin’s frost gun, Expedition’s End, shoots blasts of ice at his enemies, an homage to his life’s work in the Arctic, and to his untimely end. He wields Expedition’s End in his right hand.`,
+        weaponStats : {
+            damagePerSecond: 7,
+            bulletDamage: 4.40,
+            ammo: 33,
+            bulletsPerSecond: 13.6,
+            reloadTime: 2.44,
+            bulletVelocity: 572,
+            lightMeleeDamage: 43,
+            heavyMeleeDamage: 99,
+            weaponFalloffRange: `20 → 58` 
+        },
+        weaponImage: "images-&-videos/Kelvin/weapon",
+        healthStats: {
+            healthPoints: 800, 
+            healthRegen: 2.0 ,
+            moveSpeed: 6.8,
+            sprintSpeed: 1.5, 
+            dashSpeed: 0.70 ,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Frost Grenade",
+                image : "images-&-videos/Kelvin/ability1"
+            },
+            ability2 :{
+                name : "Ice Path",
+                image : "images-&-videos/Kelvin/ability2"
+            },
+            ability3 :{
+                name : "Arctic Beam",
+                image : "images-&-videos/Kelvin/ability3"
+            },
+            ability4 :{
+                name : "Frozen Beam",
+                image : "images-&-videos/Kelvin/ability4"
+            }
+        },
+        showcase : "images-&-videos/Kelvin/showcase"
+    },
+    {
+        name : "Kelvin", 
+        description : "Kelvin, an undead arctic scientist, has a plethora of ice-based abilities that slows down opponents and can heal his teammates. His Frost Grenade has the capability to deal a chunk of Spirit Damage, but also can be used to heal teammates. If used offensively, his Frost Grenade explodes, creating a cloud of subzero air, slowing enemies. His floating Ice Path allows him maneuverability around the map, allowing him to manage waves and jungle denizens very efficiently, and can reach locations where he is needed quickly. His Arctic Beam shoots a beam of freezing energy that deals Spirit damage and gradually reduces the enemies movement and fire rates, but this sacrifices Kelvin’s movement speed. Kelvin’s Frozen Shelter creates a dome of ice that can not be entered or left until the duration of the ultimate has ended, and rapidly regenerates the health of Kelvin and his allies.",
+        loreEntry : `
+        <p style="margin-bottom = 50px">
+            A famed adventuring scientist, Kelvin made it his life's mission to explore and understand the unknowable. So naturally when rumors surfaced regarding an 8th astral gate hidden in the arctic, Kelvin couldn't build an expedition team fast enough. Assembling the brightest minds of his generation, Kelvin and his team set forth with much fanfare.
+        </p>
+
+        <p style="margin-bottom = 50px">
+            They never returned.
+        </p>
+
+        <p style="margin-bottom = 50px">
+            A year and a half later the frozen body of Kelvin was found by a fishing trawler, his corpse clutching a rock etched with glowing runes. The crew chipped away at the ice, looking to get a closer look at the body and were shocked when Kelvin opened his eyes. They checked his vitals... there was no pulse. They sought to bandage his open wounds... there was no blood. And yet, impossibly, Kelvin was "alive".
+        </p>
+
+        <p>
+            Having no memory of what happened on the expedition, Kelvin is looking for answers.
+        </p>
+            `,
+        weaponInfo : `Kelvin’s frost gun, Expedition’s End, shoots blasts of ice at his enemies, an homage to his life’s work in the Arctic, and to his untimely end. He wields Expedition’s End in his right hand.`,
+        weaponStats : {
+            damagePerSecond: 70.0,
+            bulletDamage: 4.40,
+            ammo: 33,
+            bulletsPerSecond: 13.6,
+            reloadTime: 2.44,
+            bulletVelocity: 572,
+            lightMeleeDamage: 43,
+            heavyMeleeDamage: 99,
+            weaponFalloffRange: `20 → 58` 
+        },
+        weaponImage: "images-&-videos/Kelvin/weapon",
+        healthStats: {
+            healthPoints: 800, 
+            healthRegen: 2.0 ,
+            moveSpeed: 6.8,
+            sprintSpeed: 1.5, 
+            dashSpeed: 0.70 ,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Frost Grenade",
+                image : "images-&-videos/Kelvin/ability1"
+            },
+            ability2 :{
+                name : "Ice Path",
+                image : "images-&-videos/Kelvin/ability2"
+            },
+            ability3 :{
+                name : "Arctic Beam",
+                image : "images-&-videos/Kelvin/ability3"
+            },
+            ability4 :{
+                name : "Frozen Beam",
+                image : "images-&-videos/Kelvin/ability4"
+            }
+        },
+        showcase : "images-&-videos/Kelvin/showcase"
+    },
+    {
+        name : "Lady Geist", 
+        description : "An old-time socialite who maintains her appearance through taking the life force of others, and her kit as a character reflects that quality. She sacrifices a small portion of her health to deal Spirit damage to enemies through her Essence Bomb, which can be supplemented with items to deal immense damage. Her Life Drain allows her to tether to enemies, weaning off their life force, dealing Spirit damage and healing herself with it. Her Malice shoots a projectile that applies a stack of Malice at the cost of her health. Malice slows the enemy and increases the damage that Lady Geist deals to them. Her ultimate, Soul Exchange, allows you to switch HP values with an opponent, allowing her to take the life force of a healthy opponent and make them weak to turn the tables on them.",
+        loreEntry : `
+        <p style="margin-bottom = 50px">
+            Once, Lady Jeanne Geist was the toast of the town. But as time passed and her beauty faded she found herself further and further from her glory days in High Society until finally she was nothing more than a frail woman in a nursing home, telling stories of a glorious past. And that’s when Oathkeeper revealed himself. A powerful spirit from another plane, Oathkeeper offered her a path to reclaim her past glories… he could restore her youth; all she had to do was drain the essence of the living to sustain herself.
+        </p>
+
+        <p style="margin-bottom = 50px">
+            Geist was torn. Obviously murder was ghoulish business, and undoubtedly Oathkeeper was not an entity that could be trusted… but still, the thought of having a second chance of reliving her youth was too good to pass up. And so she concocted a plan: after making a pact with Oathkeeper she would bind and ward him, limiting his influence and pull over her. Oathkeeper would still get fed; but on her terms, not his.
+        </p>
+
+        <p>
+            However, as years have turned to decades; the strength of the Ward has weakened, and Oathkeeper hungers more than he ever has in the past…
+        </p>
+            `,
+        weaponInfo : `Lady Geist’s pistol resembles a six shooter, and is known as Johann’s Gift. She wields Johann’s Gift in her left hand while draining the lives of others with her right.`,
+        weaponStats : {
+            damagePerSecond: 44.4,
+            bulletDamage: 21,
+            ammo: 10,
+            bulletsPerSecond: 2.12,
+            reloadTime: 2.59,
+            bulletVelocity: 828,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `20 → 58` 
+        },
+        weaponImage: "images-&-videos/Lady-Geist/weapon",
+        healthStats: {
+            healthPoints: 800, 
+            healthRegen: 1.0 ,
+            moveSpeed: 6.3,
+            sprintSpeed: 3.0, 
+            dashSpeed: 0.68 ,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Essence Bomb",
+                image : "images-&-videos/Lady-Geist/ability1"
+            },
+            ability2 :{
+                name : "Life Drain",
+                image : "images-&-videos/Lady-Geist/ability2"
+            },
+            ability3 :{
+                name : "Malice",
+                image : "images-&-videos/Lady-Geist/ability3"
+            },
+            ability4 :{
+                name : "Soul Exchange",
+                image : "images-&-videos/Lady-Geist/ability4"
+            }
+        },
+        showcase : "images-&-videos/Lady-Geist/showcase"
+    },
+    {
+        name : "Lash", 
+        description : "An acrobatic brawler who specializes in using vertical height to deal damage, Lash is a character that relies on both map knowledge and movement to get the most out of his abilities. He can engage on enemies, using either an opponent or a teammate as a tether, with his Grapple, and slam down on enemies, dealing massive spirit damage using Ground Strike. He can also sustain himself by using his Flog, healing for a portion of the damage that it deals. His ultimate, Death Slam, can take large groups of enemies and slam them together, allowing both him and his team to deal a large burst of damage to a group of enemies. Lash’s main weakness is that he struggles against characters with high Spirit resistance, as well as good sustain, as long drawn out fights tend to go against his favour.",
+        loreEntry : `
+        <p>
+            Jacob Lash is an asshole.
+        </p>
+            `,
+        weaponInfo : `Lash’s glove, which also acts as his gun, is a burst fire weapon which he wields in his right hand. He uses his left elbow to slam into enemies from above with acrobatic lethality.`,
+        weaponStats : {
+            damagePerSecond: 47.2,
+            bulletDamage: 8.1,
+            ammo: 29,
+            bulletsPerSecond: 3.81,
+            reloadTime: 2.35,
+            bulletVelocity: 635,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `20 → 58` 
+        },
+        weaponImage: "images-&-videos/Lash/weapon",
+        healthStats: {
+            healthPoints: 700, 
+            healthRegen: 2.0 ,
+            moveSpeed: 7.3,
+            sprintSpeed: 2.5, 
+            dashSpeed: 0.68 ,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Ground Strike",
+                image : "images-&-videos/Lash/ability1"
+            },
+            ability2 :{
+                name : "Grapple",
+                image : "images-&-videos/Lash/ability2"
+            },
+            ability3 :{
+                name : "Flog",
+                image : "images-&-videos/Lash/ability3"
+            },
+            ability4 :{
+                name : "Death Slam",
+                image : "images-&-videos/Lash/ability4"
+            }
+        },
+        showcase : "images-&-videos/Lash/showcase"
+    },
+    {
+        name : "McGinnis", 
+        description : "The genius inventor and head of Fairfax Industries Military R&D department, McGinnis creates chaos on the battlefield with her structures that lock down any area she places them. If her machine gun wasn’t scary enough, McGinnis can also place down Mini Turrets that deal spirit damage over time and can be devastating if not taken care of. With her Medicinal Specter, she deploys a heal spirit that can increase the fire rate of any ally within its radius, and her Spectral Wall divides the terrain in half while also dealing damage and slowing any enemy nearby. When the situation gets rough, or if the enemies are trying to take cover, McGinnis can unleash a volley of rockets dishing out AOE damage with her ultimate, Heavy Barrage. She can’t aim her rockets too close to herself though, and if she isn’t building gun damage, then taking out her turrets will significantly reduce her damage.",
+        loreEntry : `
+        <p style="margin-bottom = 50px">
+            Maggie McGinnis always had a knack for building things. At 4 she was using Lincoln Logs to recreate architectural marvels. At 10 she built and rewired a custom light fixture for her parent's anniversary. At 15 she designed a machine that refined the souls of the dead...that last one got a little more attention than the Lincoln Logs.
+        </p>
+
+        <p>
+            Now the head of Fairfax Industries Military R&D department, McGinnis spends her time in the machine shop, not in a lab. She's not interested in theory, to her science is magic you can touch.
+        </p>
+            `,
+        weaponInfo : `Services Rendered is a medium range machine gun that increases its fire rate the longer you continue firing.`,
+        weaponStats : {
+            damagePerSecond: 76.6,
+            bulletDamage: 6.44,
+            ammo: 66,
+            bulletsPerSecond: 11.9,
+            reloadTime: 3.29,
+            bulletVelocity: 650,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `20 → 58` 
+        },
+        weaponImage: "images-&-videos/McGinnis/weapon",
+        healthStats: {
+            healthPoints: 700, 
+            healthRegen: 2.0 ,
+            moveSpeed: 6.8,
+            sprintSpeed: 2.0, 
+            dashSpeed: 0.70 ,
+            stamina: 2
+        },
+        abilities: {
+            ability1 :{
+                name : "Mini Turret",
+                image : "images-&-videos/McGinnis/ability1"
+            },
+            ability2 :{
+                name : "Medicinal Specter",
+                image : "images-&-videos/McGinnis/ability2"
+            },
+            ability3 :{
+                name : "Spectral Wall",
+                image : "images-&-videos/McGinnis/ability3"
+            },
+            ability4 :{
+                name : "Heavy Barrage",
+                image : "images-&-videos/McGinnis/ability4"
+            }
+        },
+        showcase : "images-&-videos/McGinnis/showcase"
     }
     
 ]
