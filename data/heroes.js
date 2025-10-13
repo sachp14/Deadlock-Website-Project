@@ -901,6 +901,72 @@ export const heroes = [
             }
         },
         showcase : "images-&-videos/McGinnis/showcase"
+    }, 
+    {
+        name : "Mina", 
+        description : "A vampire who, contrary to popular portrayals of vampires, is a quite frail, but deadly character that has the ability to deal bursts of Spirit damage that only gets stronger over time. Her passive ability, Love Bites, builds up on enemies as she lands bullets on them, and when triggered, deals huge Spirit damage. Her Rake ability is a sweeping motion strike that heals her when enemies are killed using it, allowing her to continue to fight multiple 1 on 1 battles if necessary. Her Sanguine Retreat can be considered one of the best evasive abilities in the game, giving her invulnerability during the channeling phase of the ability. Her ultimate, Nox Nostra, is a shower of bats which Silences enemies and allows her to trigger Love Bites on them in addition to the Spirit damage that the ultimate already deals. If her ultimate triggers Love Bites, the amount of bats released is permanently increased. Her weakness is that she heavily relies on Love Bites, so mobile characters that can evade bullets or builds with high Spirit resistance hinders her abilities.",
+        loreEntry : `
+        <p style="margin-bottom = 50px">
+            Mina Ha had it all...rich parents, elite education, and an arranged marriage that would see her ascend from run-of-the-mill upper class to American royalty. She was happy.
+        </p>
+
+        <p style="margin-bottom = 50px">
+            Then her betrothed was assassinated.
+        </p>
+
+        <p style="margin-bottom = 50px">
+            Mina wept; not for the life of her fiancé, but for the future that was stolen from her. Why couldn’t the killer just wait until after the wedding? Then she’d have the last name she always dreamed of and no one would even have to pretend to love anyone. It could have been perfect, but life wasn’t fair...and so Mina did what she always does when things don’t go her way: she told her parents to fix it.
+        </p>
+
+        <p style="margin-bottom = 50px">
+            Mr. And Mrs. Ha knew that the only way to appease their daughter was to offer her something greater than what she lost... and marrying into one of the world’s most lauded families was a tall order to top. They had to think big. They had to think outside of the box. They had to promise their daughter immortality.
+        </p>
+
+        <p>
+            It took a small fortune, but eventually they found a vampire who was willing to turn her. Unsurprisingly, Mina thought the idea of eternal youth and a trust fund was an acceptable plan B and happily agreed to the proposal. Now a fledgling vampire, Mina is quickly discovering that the clout she held as a human has no weight in vampire high society...and while at first that annoyed her, if there is one thing Mina has a knack for, it's learning the rules so she can subvert them. She will be the Viscount of New York, the other vampires just don't know it yet.
+        </p>
+            `,
+        weaponInfo : `Mina’s vampiric pistol, New Money, holds a blood vial and fires bullets of blood, fitting for a vampire. She wields New Money in her right hand, and holds an umbrella in the left for which she uses to float in Nox Nostra and when using Rake.`,
+        weaponStats : {
+            damagePerSecond: 27.8,
+            bulletDamage: 7.00,
+            ammo: 12,
+            bulletsPerSecond: 3.97,
+            reloadTime: 1.70,
+            bulletVelocity: 762,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `20 → 46` 
+        },
+        weaponImage: "images-&-videos/Mina/weapon",
+        healthStats: {
+            healthPoints: 580, 
+            healthRegen: 2.0 ,
+            moveSpeed: 6.7,
+            sprintSpeed: 2.0, 
+            dashSpeed: 0.62 ,
+            stamina: 2
+        },
+        abilities: {
+            ability1 :{
+                name : "Rake",
+                image : "images-&-videos/Mina/ability1"
+            },
+            ability2 :{
+                name : "Sanguine Retreat",
+                image : "images-&-videos/Mina/ability2"
+            },
+            ability3 :{
+                name : "Love Bites",
+                image : "images-&-videos/Mina/ability3"
+            },
+            ability4 :{
+                name : "Nox Nostra",
+                image : "images-&-videos/Mina/ability4"
+            }
+        },
+        showcase : "images-&-videos/Mina/showcase"
     }
+
     
 ]
