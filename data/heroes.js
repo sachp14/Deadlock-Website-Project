@@ -966,7 +966,415 @@ export const heroes = [
             }
         },
         showcase : "images-&-videos/Mina/showcase"
+    },
+    {
+        name : "Mirage", 
+        description : "Mirage is a damage dealer that excels in the mid-range, with the ability to stun opponents and capitalize on his high Weapon damage, as well as his Djinn’s Mark. His Fire Scarabs siphons the opponents max health and applies bullet resist reduction, further improving his potential as a Weapon damage dealer. His Tornado lifts up enemies and gives Mirage bullet evasion, allowing him to deal damage easily while making it harder for the opposite to happen. His Djinn’s Mark has a passive and active aspect. The passive aspect of the ability applies an increasing multiplier, and when the multiplier either reaches the max or expires, the target suffers Spirit damage. The active aspect will immediately deal the damage that is built up. Mirage’s ultimate, Traveler, can teleport him to a visible ally or enemy on the map, and after completing the teleport, Mirage is granted bonus move speed and fire rate until his next reload. His ultimate allows him to participate in fights when he isn’t even near, and can swing the fight in his team’s favour.",
+        loreEntry : `
+        <p style="margin-bottom = 50px">
+            The Djinn are one of the more curious groups of people in the modern world. Possessing great power in controlled doses, Djinn are incapable of maintaining corporeal form for longer than 48 minutes without resting within a vessel. As a result, most Djinn employ human bodyguards for transport, protection, and companionship.
+        </p>
+
+        <p>
+            Mirage is one such bodyguard. Employed by Djinn ambassador Nashala Dion, Mirage is in New York on a diplomatic mission. It's the hope of the Djinn that they can negotiate with the US government for a sale of part of Wyoming so that they can build a sovereign nation for their people.
+        </p>
+            `,
+        weaponInfo : `Mirage’s pistol, Promises Kept, is wielded in his right hand, and is used to protect the Djinn’s vessel, which he holds in his left hand.`,
+        weaponStats : {
+            damagePerSecond: 39.7,
+            bulletDamage: 14.6,
+            ammo: 16,
+            bulletsPerSecond: 2.72,
+            reloadTime: 2.60,
+            bulletVelocity: 828,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `20 → 58` 
+        },
+        weaponImage: "images-&-videos/Mirage/weapon",
+        healthStats: {
+            healthPoints: 650, 
+            healthRegen: 2.0 ,
+            moveSpeed: 7.3,
+            sprintSpeed: 2.0, 
+            dashSpeed: 0.68 ,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Fire Scarabs",
+                image : "images-&-videos/Mirage/ability1"
+            },
+            ability2 :{
+                name : "Tornado",
+                image : "images-&-videos/Mirage/ability2"
+            },
+            ability3 :{
+                name : "Djinn's Mark",
+                image : "images-&-videos/Mirage/ability3"
+            },
+            ability4 :{
+                name : "Traveler",
+                image : "images-&-videos/Mirage/ability4"
+            }
+        },
+        showcase : "images-&-videos/Mirage/showcase"
+    },
+    {
+        name : "Mo & Krill", 
+        description : "Don’t disrespect The Tunnel Rats, unless you want to be reminded what happens to those who do by Mo & Krill. Fighting together, this slippery duo causes chaos around the battlefield by burrowing around and disrupting the enemies. Their first ability, Scorn, deals damage in a radius around Mo & Krill that also heals themselves based on the damage done. Whenever they’re in a pinch they Burrow underground with increased movement speed and bonuses to their bullet and spirit resistance, allowing for great roaming potential when scouting out potential picks for their team. They can Burrow underneath enemies and jump out to deal spirit damage, a slow, and knock them up. Characters relying on their gun can be shut down whenever Mo & Krill use their third ability which disarms their enemies by throwing a Sand Blast at their face. But the real trouble comes with their ultimate, Combo, holding the target in place, stunning them and dealing damage, setting up their team for easy pickings to get further ahead or to shut down the enemy carry. If an enemy were to die during or within 3 seconds of the Combo ending, then Mo & Krill will receive a permanent increase of 50 health. Mo & Krill, like many other support characters, rely greatly on his team to also do well since his abilities are mostly there to set up kills for his team rather than to hard carry.",
+        loreEntry : `
+        <p>
+            Mo and Krill are members of The Tunnel Rats, a group that help facilitate illicit trade and commerce between the boroughs thanks to a network of underground tunnels. But while most denizens of the New York underworld respect the work The Rats do, every once in a while a gang tries to exploit the tunnel system for personal vendettas...that's when Mo and Krill step in and remind the city what happens to those who disrespect their hospitality.
+        </p>
+            `,
+        weaponInfo : `Mirage’s pistol, Promises Kept, is wielded in his right hand, and is used to protect the Djinn’s vessel, which he holds in his left hand.`,
+        weaponStats : {
+            damagePerSecond: 57.1,
+            bulletDamage: 2.70,
+            ammo: 20,
+            bulletsPerSecond: 5.29,
+            reloadTime: 2.82,
+            bulletVelocity: 320,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `20 → 58` 
+        },
+        weaponImage: "images-&-videos/Mo-&-Krill/weapon",
+        healthStats: {
+            healthPoints: 850, 
+            healthRegen: 3.0 ,
+            moveSpeed: 8.1,
+            sprintSpeed: 2.0, 
+            dashSpeed: 0.70,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Scorn",
+                image : "images-&-videos/Mo-&-Krill/ability1"
+            },
+            ability2 :{
+                name : "Burrow",
+                image : "images-&-videos/Mo-&-Krill/ability2"
+            },
+            ability3 :{
+                name : "Sand Blast",
+                image : "images-&-videos/Mo-&-Krill/ability3"
+            },
+            ability4 :{
+                name : "Combo",
+                image : "images-&-videos/Mo-&-Krill/ability4"
+            }
+        },
+        showcase : "images-&-videos/Mo-&-Krill/showcase"
+    }, 
+    {
+        name : "Paige", 
+        description : "Paige is a bookworm character that brings fantasies from her favourite novels to life. She can summon dragons through her ability, Conjure Dragons, which summons a dragon from a book she throws, and leaves a fire trail behind the dragon. Her Captivating Read immobilizes enemies, making them vulnerable to her and her teammates' attacks. Her defensive ability, Defend and Fight!, is a defensive ability that can give herself and her teammates a barrier that also increases the target’s weapon damage, both of which can be increased through Spirit scaling. Her ultimate, Rallying Charge, is a group of spectral knights on their steeds which can charge through the entire map, healing allies and dealing Spirit damage to enemies and stunning them. Overall, she is an incredible support character that can deal good Spirit damage, but does not particularly shine. Her weaknesses include 1 on 1 fights, as her projectile weapon has an incredibly low bullet velocity, such to the point where even securing minion orbs is a difficult task.",
+        loreEntry : `
+        <p style = "margin-bottom: 50px">
+            The daughter of a rare book dealer, Paige grew up in a loving home that prioritized kindness, magic, and storytelling. But while Paige took naturally to her parents' values, her little brother Bryce did not.
+        </p>
+
+        <p style = "margin-bottom: 50px">
+            A rebellious teen, Bryce resented not only his family’s saccharine attitude, but also their refusal to let him dabble in magics that they deemed too dangerous. Paige tried everything she could think of to keep him out of trouble, but like most teenagers, the more his big sister tried to tell him what was best for him, the more he turned away.
+        </p>
+        
+        <p style = "margin-bottom: 50px">
+            Paige doesn't know what Bryce did to get kicked out of the house...just that she came home from the library to find her brother gone and her parents crying.
+        </p>
+
+        <p>
+        Days turned to weeks, to months, to years. Paige grew to become a talented bibliomancer, making a living as a storyteller reading at libraries across the five boroughs; and while her parents have remained silent about what happened with Bryce, Paige's obsession with finding him has only grown. She will discover what happened to her brother... and no man or god is going to stand in her way.
+        </p>
+            `,
+        weaponInfo : `Her book, Chapter’s End, is a projectile weapon that she holds with both of her hands, and is the source from which she makes spectral creations come true.`,
+        weaponStats : {
+            damagePerSecond: 58.3,
+            bulletDamage: 35.0,
+            ammo: 14,
+            bulletsPerSecond: 2.00,
+            reloadTime: 2.50,
+            bulletVelocity: 37.7,
+            lightMeleeDamage: 42,
+            heavyMeleeDamage: 120,
+            weaponFalloffRange: `20 → 58` 
+        },
+        weaponImage: "images-&-videos/Paige/weapon",
+        healthStats: {
+            healthPoints: 600, 
+            healthRegen: 2.0 ,
+            moveSpeed: 7.0,
+            sprintSpeed: 4.0, 
+            dashSpeed: 0.68,
+            stamina: 2
+        },
+        abilities: {
+            ability1 :{
+                name : "Conjure Dragon",
+                image : "images-&-videos/Paige/ability1"
+            },
+            ability2 :{
+                name : "Defend and Fight!",
+                image : "images-&-videos/Paige/ability2"
+            },
+            ability3 :{
+                name : "Captivating Read",
+                image : "images-&-videos/Paige/ability3"
+            },
+            ability4 :{
+                name : "Rallying Charge",
+                image : "images-&-videos/Paige/ability4"
+            }
+        },
+        showcase : "images-&-videos/Paige/showcase"
+    },
+    {
+        name : "Paige", 
+        description : "Paige is a bookworm character that brings fantasies from her favourite novels to life. She can summon dragons through her ability, Conjure Dragons, which summons a dragon from a book she throws, and leaves a fire trail behind the dragon. Her Captivating Read immobilizes enemies, making them vulnerable to her and her teammates' attacks. Her defensive ability, Defend and Fight!, is a defensive ability that can give herself and her teammates a barrier that also increases the target’s weapon damage, both of which can be increased through Spirit scaling. Her ultimate, Rallying Charge, is a group of spectral knights on their steeds which can charge through the entire map, healing allies and dealing Spirit damage to enemies and stunning them. Overall, she is an incredible support character that can deal good Spirit damage, but does not particularly shine. Her weaknesses include 1 on 1 fights, as her projectile weapon has an incredibly low bullet velocity, such to the point where even securing minion orbs is a difficult task.",
+        loreEntry : `
+        <p style = "margin-bottom: 50px">
+            The daughter of a rare book dealer, Paige grew up in a loving home that prioritized kindness, magic, and storytelling. But while Paige took naturally to her parents' values, her little brother Bryce did not.
+        </p>
+
+        <p style = "margin-bottom: 50px">
+            A rebellious teen, Bryce resented not only his family’s saccharine attitude, but also their refusal to let him dabble in magics that they deemed too dangerous. Paige tried everything she could think of to keep him out of trouble, but like most teenagers, the more his big sister tried to tell him what was best for him, the more he turned away.
+        </p>
+        
+        <p style = "margin-bottom: 50px">
+            Paige doesn't know what Bryce did to get kicked out of the house...just that she came home from the library to find her brother gone and her parents crying.
+        </p>
+
+        <p>
+        Days turned to weeks, to months, to years. Paige grew to become a talented bibliomancer, making a living as a storyteller reading at libraries across the five boroughs; and while her parents have remained silent about what happened with Bryce, Paige's obsession with finding him has only grown. She will discover what happened to her brother... and no man or god is going to stand in her way.
+        </p>
+            `,
+        weaponInfo : `Her book, Chapter’s End, is a projectile weapon that she holds with both of her hands, and is the source from which she makes spectral creations come true.`,
+        weaponStats : {
+            damagePerSecond: 58.3,
+            bulletDamage: 35.0,
+            ammo: 14,
+            bulletsPerSecond: 2.00,
+            reloadTime: 2.50,
+            bulletVelocity: 37.7,
+            lightMeleeDamage: 42,
+            heavyMeleeDamage: 120,
+            weaponFalloffRange: `20 → 58` 
+        },
+        weaponImage: "images-&-videos/Paige/weapon",
+        healthStats: {
+            healthPoints: 600, 
+            healthRegen: 2.0 ,
+            moveSpeed: 7.0,
+            sprintSpeed: 4.0, 
+            dashSpeed: 0.68,
+            stamina: 2
+        },
+        abilities: {
+            ability1 :{
+                name : "Conjure Dragon",
+                image : "images-&-videos/Paige/ability1"
+            },
+            ability2 :{
+                name : "Defend and Fight!",
+                image : "images-&-videos/Paige/ability2"
+            },
+            ability3 :{
+                name : "Captivating Read",
+                image : "images-&-videos/Paige/ability3"
+            },
+            ability4 :{
+                name : "Rallying Charge",
+                image : "images-&-videos/Paige/ability4"
+            }
+        },
+        showcase : "images-&-videos/Paige/showcase"
+    },
+    {
+        name : "Paradox", 
+        description : "Be wary of Paradox who wields time manipulating abilities that slow and disrupts the momentum of her enemies. She can throw a Pulse Grenade that applies damage, movement slow, and stacking damage amplification for every pulse that hits her enemy. Whenever Paradox needs cover, she can place a Time Wall that slows down time for any bullet or enemy that walks through it, with the wall later being able to deal max health damage and silence to those who touch it.  With a fully charged and well timed shot with Kinetic Carbine, Paradox is able to deal a significant amount of burst spirit damage and apply a brief time-stop to whoever is hit by the carbine. Lastly, Paradox’s ultimate, Paradoxical Swap fires a projectile that swaps her position with the target that is hit while dealing spirit damage over time to them. In combination with the rest of her abilities, Paradox proves herself to be a tricky opponent while thriving off of the disorder she causes.",
+        loreEntry : `
+        <p style = "margin-bottom: 50px">
+            An artifact of time, and the name of a notorious thieves' guild... one that prides themselves on constructing elaborate heists that target the most untouchable of individuals and institutions. What does Paradox do with the countless artifacts, state secrets, and celebrity paternity tests that they have stolen? Put it on display at pop-up museums, so that they can show the world that no one is out of Paradox’s reach.
+        </p>
+
+        <p>
+            Shrouded in mystery, each member of Paradox dons a mask and takes on the organization's name. They are everywhere. They are nowhere. And if they want something, they are inevitable.
+        </p>
+            `,
+        weaponInfo : `Trade Secret is a burst fire gun with a caliper-like design where the handles are pressed together to fire the weapon, which deals damage at a medium range.`,
+        weaponStats : {
+            damagePerSecond: 49.0,
+            bulletDamage: 6.48,
+            ammo: 40,
+            bulletsPerSecond: 3.40,
+            reloadTime: 2.59,
+            bulletVelocity: 525,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `20 → 58` 
+        },
+        weaponImage: "images-&-videos/Paradox/weapon",
+        healthStats: {
+            healthPoints: 700, 
+            healthRegen: 2.0 ,
+            moveSpeed: 6.8,
+            sprintSpeed: 2.0, 
+            dashSpeed: 0.68,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Pulse Grenade",
+                image : "images-&-videos/Paradox/ability1"
+            },
+            ability2 :{
+                name : "Time Wall",
+                image : "images-&-videos/Paradox/ability2"
+            },
+            ability3 :{
+                name : "Kinetic Carbine",
+                image : "images-&-videos/Paradox/ability3"
+            },
+            ability4 :{
+                name : "Paradoxical Swap",
+                image : "images-&-videos/Paradox/ability4"
+            }
+        },
+        showcase : "images-&-videos/Paradox/showcase"
+    },
+    {
+        name : "Pocket", 
+        description : "Pocket is a character with a highly mobile set of abilities which allows him to excel in using his shotgun in close range. His briefcase fires out projectiles which deal Spirit damage and applies movement slow in their area of effect. On connection, Pocket gains a short increase in all damage that he deals, which benefits him when engaging in fights. His Enchanter’s Satchel can both be used to deal damage and get him out of sticky situations. When he channels into his briefcase, he is invulnerable, and when he pops out of the briefcase, he deals Spirit damage in an explosion. The small explosion radius further compounds his case as a close range character. His Flying Cloak goes through enemies and deals damage to any that the cloak touches, and Pocket can choose to teleport to the cloak at any point in time, as long as the cloak is on the map. His ultimate, Affliction, deals Spirit damage to enemies in a burst and deals Spirit damage over time afterwards. The damage that Affliction deals will never result in an elimination on its own, but easily sets up for even a little damage to end the life of any opponent afflicted by his ultimate. His weakness is mostly characters that are able to shrug off his Spirit damage through resistances, as all of his abilities deal Spirit damage.",
+        loreEntry : `
+        <p style = "margin-bottom: 50px">
+            Arin Fairfax, the eldest heir to Fairfax Industries, has been living in hiding for the past 5 years after being shot and left for dead on their 18th birthday. Arin doesn't know who is trying to keep them from taking control of their parent's company... but in the avarice fueled viper's nest that is Fairfax Industries it could be anyone.
+        </p>
+
+        <p>
+            Taking on the name "Pocket", Arin desperately wants to keep their true identity a secret… not only for their own protection; but because they want to forge their own identity separate from their parents.
+        </p>
+            `,
+        weaponInfo : `Pocket’s shotgun, The Black Sheep, refers to his estranged existence for the past five years, which is wielded in his right hand, while he holds his trusty briefcase in the left.`,
+        weaponStats : {
+            damagePerSecond: 54.7,
+            bulletDamage: 4.10,
+            ammo: 11,
+            bulletsPerSecond: 1.90,
+            reloadTime: 2.82,
+            bulletVelocity: 559,
+            lightMeleeDamage: 60,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `16 → 46` 
+        },
+        weaponImage: "images-&-videos/Pocket/weapon",
+        healthStats: {
+            healthPoints: 700, 
+            healthRegen: 2.0 ,
+            moveSpeed: 7.3,
+            sprintSpeed: 2.0, 
+            dashSpeed: 0.68,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Barrage",
+                image : "images-&-videos/Pocket/ability1"
+            },
+            ability2 :{
+                name : "Flying Cloak",
+                image : "images-&-videos/Pocket/ability2"
+            },
+            ability3 :{
+                name : "Enchanter's Satchel",
+                image : "images-&-videos/Pocket/ability3"
+            },
+            ability4 :{
+                name : "Affliction",
+                image : "images-&-videos/Pocket/ability4"
+            }
+        },
+        showcase : "images-&-videos/Pocket/showcase"
+    },
+    {
+        name : "Seven", 
+        description : "The man with no limitations, Seven unleashes havoc on the battlefield through his mystical mastery over electrical currents. Seven can cast Lightning Balls for his first ability that travels in a straight line while dealing spirit damage to any enemies within its radius. He can also stun enemies with his second ability, Static Charge, that he places on an enemy, with anybody else nearby also getting stunned if they are in its radius. However, Seven’s greatest source of damage is through Power Surge, which makes his bullets proc shock damage that can chain to other targets nearby. Last but not least, Seven’s ultimate, Storm Cloud, covers an entire area with his electrifying powers and deals spirit damage to any enemy within his line of sight. While channeling his ult, he can also strike a targeted area once with a powerful bolt of lightning that knocks back enemies.",
+        loreEntry : `
+        <p style = "margin-bottom: 50px">
+            When mystic energy awoke on Earth, the world changed... anything was possible. But just because anything WAS possible, didn’t mean that anything SHOULD be possible. And so the government made rules. Laws. A means for US citizens to enjoy the benefits of the supernatural world in safety. But rules and laws are for lesser men. Men with limitations. Men who were not Seven. 
+        </p>
+
+        <p style = "margin-bottom: 50px">
+            There are many rumors about what Seven did to land himself in Lost Whisper, an oubliette for the most dangerous of occultists. But there is no doubt about what happened on the night of his execution. 
+        </p>
+
+        <p style = "margin-bottom: 50px">
+            Onlookers viewed in horror as the strongest mentalist employed by the US Army’s head popped like a grape. They screamed as Scotland Yard’s premiere occult investigator, the one who allegedly captured Seven, crumbled to ash. Seven's body buckled and writhed against his restraints; his skin burning from eldritch electricity... and yet he would not die. He laughed.
+        </p>
+
+        <p style = "margin-bottom: 50px">
+            He laughed as he tore himself free from his bondage.
+        </p>
+
+        <p style = "margin-bottom: 50px">
+            He laughed as his captors cowered in fear.
+        </p>
+
+        <p style = "margin-bottom: 50px">
+            He laughed as he massacred his tormentors.
+        </p>
+
+        <p style = "margin-bottom: 50px">
+            He laughed as he tasted the fresh air that was denied to him for years. 
+        </p>  
+
+        <p>
+            And he laughed when he thought about what he was going to do once he reached New York City.
+        </p>
+            `,
+        weaponInfo : `Cold Calculus is a burst fire weapon that has been designed with tesla coils that can shoot out bullets that can shock enemies at a medium range. Not only does the gun’s appearance resemble Seven’s, but its name is also a reminder of the merciless and calculating measures that Seven will go through in order to reach his goal.`,
+        weaponStats : {
+            damagePerSecond: 60.3,
+            bulletDamage: 10.4,
+            ammo: 29,
+            bulletsPerSecond: 3.81,
+            reloadTime: 2.35,
+            bulletVelocity: 635,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `20 → 58` 
+        },
+        weaponImage: "images-&-videos/Seven/weapon",
+        healthStats: {
+            healthPoints: 650, 
+            healthRegen: 1.0 ,
+            moveSpeed: 6.9,
+            sprintSpeed: 1.0, 
+            dashSpeed: 0.68,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Lightning Ball",
+                image : "images-&-videos/Seven/ability1"
+            },
+            ability2 :{
+                name : "Static Charge",
+                image : "images-&-videos/Seven/ability2"
+            },
+            ability3 :{
+                name : "Power Surge",
+                image : "images-&-videos/Seven/ability3"
+            },
+            ability4 :{
+                name : "Storm Cloud",
+                image : "images-&-videos/Seven/ability4"
+            }
+        },
+        showcase : "images-&-videos/Seven/showcase"
     }
+    
 
     
 ]
