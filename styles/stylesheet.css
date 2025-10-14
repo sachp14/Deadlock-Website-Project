@@ -5,3 +5,17 @@ display:none;
 video::-webkit-media-controls-mute-button {
 display:none;
 }
+
+
+.video-container{
+  position: relative;
+  width: 100%;
+  max-width: 800px; 
+  margin: 0 auto;
+}
+
+.video{
+  display: block;
+  width: 100%;
+  height: auto;
+}
