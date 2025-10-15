@@ -1373,8 +1373,574 @@ export const heroes = [
             }
         },
         showcase : "images-&-videos/Seven/showcase"
-    }
-    
+    },
+    {
+        name : "Shiv", 
+        description : "The man with no limitations, Seven unleashes havoc on the battlefield through his mystical mastery over electrical currents. Seven can cast Lightning Balls for his first ability that travels in a straight line while dealing spirit damage to any enemies within its radius. He can also stun enemies with his second ability, Static Charge, that he places on an enemy, with anybody else nearby also getting stunned if they are in its radius. However, Seven’s greatest source of damage is through Power Surge, which makes his bullets proc shock damage that can chain to other targets nearby. Last but not least, Seven’s ultimate, Storm Cloud, covers an entire area with his electrifying powers and deals spirit damage to any enemy within his line of sight. While channeling his ult, he can also strike a targeted area once with a powerful bolt of lightning that knocks back enemies.",
+        loreEntry : `
+        <p style = "margin-bottom: 50px">
+            A loyal member of "The Baxter Society", an international order of monster hunters, Shiv travels across North America looking to put down creatures that prey on the living.
+        </p>  
 
-    
+        <p>
+        While his less polished nature and criminal past make some of the more traditional members of the Society wary, no one can deny his effectiveness.
+        </p>
+            `,
+        weaponInfo : `Shiv’s shotgun, Busted Flush, has a special alternate fire that knocks him back, and allows him to perform movement with it. He wields Busted Flush in his right hand, and holds his jacket over his left shoulder.`,
+        weaponStats : {
+            damagePerSecond: 50.1,
+            bulletDamage: 4.60,
+            ammo: 10,
+            bulletsPerSecond: 1.81,
+            reloadTime: 2.80,
+            bulletVelocity: 610,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `20 → 41` 
+        },
+        weaponImage: "images-&-videos/Shiv/weapon",
+        healthStats: {
+            healthPoints: 750, 
+            healthRegen: 2.0 ,
+            moveSpeed: 6.8,
+            sprintSpeed: 2.0, 
+            dashSpeed: 0.70,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Serrated Knives",
+                image : "images-&-videos/Shiv/ability1"
+            },
+            ability2 :{
+                name : "Slice and Dice",
+                image : "images-&-videos/Shiv/ability2"
+            },
+            ability3 :{
+                name : "Bloodletting",
+                image : "images-&-videos/Shiv/ability3"
+            },
+            ability4 :{
+                name : "Killing Blow",
+                image : "images-&-videos/Shiv/ability4"
+            }
+        },
+        showcase : "images-&-videos/Shiv/showcase"
+    },
+    {
+        name : "Sinclair", 
+        description : "A magician with lethal capabilities, Sinclair excels in maximizing Spirit damage in bursts and making targets vulnerable to his attacks. His Rabbit Hex turns all enemies within its radius to a rabbit, helpless as the team can drive damage into them without consequence. His Vexing Bolt is a bolt of magic whose direction can be manipulated by casting the ability once again, which will make it go in the direction of your crosshair. His Spectral Assistant attacks wherever he does, dealing Spirit damage. Spectral Assistant can also be teleported to, and can fire Vexing Bolts when the main body does. His ultimate, Audience Participation, copies the ultimate of an enemy hero for a short time, and can be casted, albeit it will be weaker. Upgrading his ultimate will make it deal closer to the damage of the actual ultimate. His main weakness is his reliance on Spirit damage, where opponents can build Spirit resistance and reduce his impact.",
+        loreEntry : `
+        <p style = "margin-bottom: 50px">
+            Henry's parents told him he was too young and impulsive to mess with real magic, and so they gave him a deck of cards to play with. He took to sleight of hand naturally and soon was dazzling his classmates with fantastic feats of illusions that were done without mystic artifacts or incantation.
+        </p>  
+
+        <p style = "margin-bottom: 50px">
+            When he was in high school he met Savannah, and their mutual love of stage magic sparked a whirlwind romance. Soon they fell in love and created an act together. Obviously they were meant to be; and so at prom, Henry proposed to Savannah and they married soon after graduation.
+        </p> 
+
+        <p style = "margin-bottom: 50px">
+            Unsurprisingly both sets of parents were not thrilled at this prospect, but Henry and Savannah knew they were soulmates. And so they cemented their love for one another by having a blood mystic bind their souls for eternity.
+        </p>
+
+        <p>
+            When an on-stage accident claimed both their lives, no one was sure who to blame. Henry claims Savannah was out of position. Savannah says Henry didn't wait for his cue. But one thing's for sure, since their souls are tied to each other neither one of them have been able to move on. Now a bickering pair of ghosts, Henry and Savannah need to work together if they want to have any chance of undoing their eternal union.
+        </p>
+            `,
+        weaponInfo : `Sinclair’s wand, The Prestige, is a magic wand that you would see in a magician that practices simple card tricks’ hand. Don’t be fooled, the magic that this wand produces does some real damage. He wields the wand in his right hand.`,
+        weaponStats : {
+            damagePerSecond: 46.3,
+            bulletDamage: 17.0,
+            ammo: 16,
+            bulletsPerSecond: 1.90,
+            reloadTime: 2.50,
+            bulletVelocity: 300,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `25  → 61` 
+        },
+        weaponImage: "images-&-videos/Sinclair/weapon",
+        healthStats: {
+            healthPoints: 700, 
+            healthRegen: 3.0 ,
+            moveSpeed: 7.3,
+            sprintSpeed: 2.0, 
+            dashSpeed: 0.68,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Vexing Bolt",
+                image : "images-&-videos/Sinclair/ability1"
+            },
+            ability2 :{
+                name : "Spectral Assistant",
+                image : "images-&-videos/Sinclair/ability2"
+            },
+            ability3 :{
+                name : "Rabbit Hex",
+                image : "images-&-videos/Sinclair/ability3"
+            },
+            ability4 :{
+                name : "Audience Participation",
+                image : "images-&-videos/Sinclair/ability4"
+            }
+        },
+        showcase : "images-&-videos/Sinclair/showcase"
+    },
+    {
+        name : "Sinclair", 
+        description : "A magician with lethal capabilities, Sinclair excels in maximizing Spirit damage in bursts and making targets vulnerable to his attacks. His Rabbit Hex turns all enemies within its radius to a rabbit, helpless as the team can drive damage into them without consequence. His Vexing Bolt is a bolt of magic whose direction can be manipulated by casting the ability once again, which will make it go in the direction of your crosshair. His Spectral Assistant attacks wherever he does, dealing Spirit damage. Spectral Assistant can also be teleported to, and can fire Vexing Bolts when the main body does. His ultimate, Audience Participation, copies the ultimate of an enemy hero for a short time, and can be casted, albeit it will be weaker. Upgrading his ultimate will make it deal closer to the damage of the actual ultimate. His main weakness is his reliance on Spirit damage, where opponents can build Spirit resistance and reduce his impact.",
+        loreEntry : `
+        <p style = "margin-bottom: 50px">
+            Henry's parents told him he was too young and impulsive to mess with real magic, and so they gave him a deck of cards to play with. He took to sleight of hand naturally and soon was dazzling his classmates with fantastic feats of illusions that were done without mystic artifacts or incantation.
+        </p>  
+
+        <p style = "margin-bottom: 50px">
+            When he was in high school he met Savannah, and their mutual love of stage magic sparked a whirlwind romance. Soon they fell in love and created an act together. Obviously they were meant to be; and so at prom, Henry proposed to Savannah and they married soon after graduation.
+        </p> 
+
+        <p style = "margin-bottom: 50px">
+            Unsurprisingly both sets of parents were not thrilled at this prospect, but Henry and Savannah knew they were soulmates. And so they cemented their love for one another by having a blood mystic bind their souls for eternity.
+        </p>
+
+        <p>
+            When an on-stage accident claimed both their lives, no one was sure who to blame. Henry claims Savannah was out of position. Savannah says Henry didn't wait for his cue. But one thing's for sure, since their souls are tied to each other neither one of them have been able to move on. Now a bickering pair of ghosts, Henry and Savannah need to work together if they want to have any chance of undoing their eternal union.
+        </p>
+            `,
+        weaponInfo : `Sinclair’s wand, The Prestige, is a magic wand that you would see in a magician that practices simple card tricks’ hand. Don’t be fooled, the magic that this wand produces does some real damage. He wields the wand in his right hand.`,
+        weaponStats : {
+            damagePerSecond: 46.3,
+            bulletDamage: 17.0,
+            ammo: 16,
+            bulletsPerSecond: 1.90,
+            reloadTime: 2.50,
+            bulletVelocity: 300,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `25  → 61` 
+        },
+        weaponImage: "images-&-videos/Sinclair/weapon",
+        healthStats: {
+            healthPoints: 700, 
+            healthRegen: 3.0 ,
+            moveSpeed: 7.3,
+            sprintSpeed: 2.0, 
+            dashSpeed: 0.68,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Vexing Bolt",
+                image : "images-&-videos/Sinclair/ability1"
+            },
+            ability2 :{
+                name : "Spectral Assistant",
+                image : "images-&-videos/Sinclair/ability2"
+            },
+            ability3 :{
+                name : "Rabbit Hex",
+                image : "images-&-videos/Sinclair/ability3"
+            },
+            ability4 :{
+                name : "Audience Participation",
+                image : "images-&-videos/Sinclair/ability4"
+            }
+        },
+        showcase : "images-&-videos/Sinclair/showcase"
+    },
+    {
+        name : "Victor", 
+        description : "Victor is a close range brawler that harnesses his pain into a lethal weapon, channeling the damage he receives into Pain Battery in order to dish out a significant amount of spirit damage back towards his enemies. Additionally, his Aura of Suffering causes him to unleash pain onto both himself and his enemies with the damage gradually ramping up to a maximum amount. Despite all the damage Victor inflicts on himself, he can also use Jumpstart to receive a massive burst of healing and movement speed. And when you think you’re about to defeat him, Shocking Reanimation will prove you wrong. Victor revives at full health after receiving lethal damage, with an AOE that deals spirit damage and stuns any enemies near his reanimation.",
+        loreEntry : `
+        <p style = "margin-bottom: 50px">
+            A lot of people spend their whole lives wondering who they really are. For Victor, this existential question is made more complicated as he woke up on a mortuary table with no knowledge of his creator, why he was made, and whom he is made of.
+        </p>  
+
+        <p>
+            Now searching the five boroughs for answers, Victor is hoping to find someone who can identify any part of him.
+        </p> 
+            `,
+        weaponInfo : `Memento Mori is a medium range gun, designed similarly to a nailgun, that shoots bullets at a slightly slow velocity. A name contradictory to Victor’s nature, yet serves as a warning to his foes.`,
+        weaponStats : {
+            damagePerSecond: 70.2,
+            bulletDamage: 12.0,
+            ammo: 24,
+            bulletsPerSecond: 5.05,
+            reloadTime: 2.40,
+            bulletVelocity: 203,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `20  → 58` 
+        },
+        weaponImage: "images-&-videos/Victor/weapon",
+        healthStats: {
+            healthPoints: 680, 
+            healthRegen: 3.0 ,
+            moveSpeed: 6.3,
+            sprintSpeed: 1.5, 
+            dashSpeed: 0.70,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Pain Battery",
+                image : "images-&-videos/Victor/ability1"
+            },
+            ability2 :{
+                name : "Jumpstart",
+                image : "images-&-videos/Victor/ability2"
+            },
+            ability3 :{
+                name : "Aura of Suffering",
+                image : "images-&-videos/Victor/ability3"
+            },
+            ability4 :{
+                name : "Shocking Reanimation",
+                image : "images-&-videos/Victor/ability4"
+            }
+        },
+        showcase : "images-&-videos/Victor/showcase"
+    },
+    {
+        name : "Vindicta", 
+        description : "A ghastly sniper who can fly and pick you off from distance, Vindicta excels with dealing with low health targets, and getting them low through Weapon damage. Her Stake binds enemies to the ground and within a certain radius, making it easier for Vindicta to deal damage to them. Her Flight is what it sounds like; it allows Vindicta to fly in the air, adding Spirit damage to her weapon’s damage as well. Her Crow Familiar deals Spirit damage and afterwards applies a bleed. The Crow Familiar also reduces the target's bullet and spirit resistance, allowing Vindicta to further deal Weapon damage to the target with ease. Her ultimate, Assassinate, is an ability that deals a chunk of Spirit damage, and does extra damage to targets after scoping for longer than a second, and if the target is below 50% health. Eliminating a player with Assassinate gives you bonus souls as well, allowing Vindicta to snowball off of her precision. Vindicta’s main weakness is her lack of health and stamina. She has 2 stamina, limiting her movement, and does not have a vast health pool to work with.",
+        loreEntry : `
+        <p style = "margin-bottom: 50px">
+            A victim of John Hathorne during the Salem Witch Trials, Vindicta got a second chance of life when her spirit was brought back to the mortal plane during the first Maelstrom (the event that introduced the supernatural to the public at large.)
+        </p>  
+
+        <p>
+            Waging a one ghost war against "The Friends of Humanity", a neo inquisition formed by Hathorne's descendants; Vindicta looks to keep the supernatural safe from Hathorne's ilk, and she isn't afraid to stack as many bodies as needed to do it.
+        </p> 
+            `,
+        weaponInfo : `Vindicta’s weapon, Wallflower’s Revenge, is a gun that doubles as both a rifle and a sniper, allowing her to pepper enemies down to low health and finish them off with a single weapon. She holds the Wallflower’s Revenge in both hands.`,
+        weaponStats : {
+            damagePerSecond: 49.4,
+            bulletDamage: 11.4,
+            ammo: 22,
+            bulletsPerSecond: 4.33,
+            reloadTime: 2.91,
+            bulletVelocity: 557,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `20  → 64` 
+        },
+        weaponImage: "images-&-videos/Vindicta/weapon",
+        healthStats: {
+            healthPoints: 675, 
+            healthRegen: 2.0 ,
+            moveSpeed: 8.0,
+            sprintSpeed: 2.0, 
+            dashSpeed: 0.68,
+            stamina: 2
+        },
+        abilities: {
+            ability1 :{
+                name : "Stake",
+                image : "images-&-videos/Vindicta/ability1"
+            },
+            ability2 :{
+                name : "Flight",
+                image : "images-&-videos/Vindicta/ability2"
+            },
+            ability3 :{
+                name : "Crow Familiar",
+                image : "images-&-videos/Vindicta/ability3"
+            },
+            ability4 :{
+                name : "Assassinate",
+                image : "images-&-videos/Vindicta/ability4"
+            }
+        },
+        showcase : "images-&-videos/Vindicta/showcase"
+    },
+    {
+        name : "Viscous", 
+        description : "This psychic sea anemone isn’t one to be underestimated as Viscous can Splatter his enemies with a ball of goo that deals spirit damage, or use his Puddle Punch to knock around both enemies and allies alike. Whenever he or an ally is in a pinch, Viscous can come save the day using The Cube, which encapsulates his target in a cube of restorative goo. If Viscous ever needs an escape or wants to cause maximum chaos, he can morph into a large Goo Ball and roll into his enemies, stunning while dealing spirit damage. Viscous is especially difficult to deal with during the midgame, however, he begins to weaken during the late game as his damage falls off.",
+        loreEntry : `
+        <p style = "margin-bottom: 50px">
+            The Bermuda Triangle was never a myth, it was a shadowline nexus deep underneath the Atlantic Ocean. For the most part, the things that escaped this astral gate were benign (like Nessie), but now something dark and predatory known only as The Adversary hunts the seas... and ocean denizens are scared to death.
+        </p>  
+
+        <p>
+            One of those inhabitants, a psychic sea anemone, wants to do something about it. Summoning an ectoplasmic goo body to traverse the surface, Viscous is desperately trying to summon the Patrons in order to keep The Deep safe from the horror that lurks below.
+        </p> 
+            `,
+        weaponInfo : `The Deep Sea Interpreter shoots a slow, medium-range projectile made out of goo that also has an alternate fire mode, which releases an even larger ball of goo that splashes a small area at the cost of 5 ammo.`,
+        weaponStats : {
+            damagePerSecond: 47.1,
+            bulletDamage: 9.90,
+            ammo: 20,
+            bulletsPerSecond: 4.76,
+            reloadTime: 2.50,
+            bulletVelocity: 254,
+            lightMeleeDamage: 63,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `20  → 58` 
+        },
+        weaponImage: "images-&-videos/Viscous/weapon",
+        healthStats: {
+            healthPoints: 700, 
+            healthRegen: 2.0 ,
+            moveSpeed: 7.3,
+            sprintSpeed: 2.0, 
+            dashSpeed: 0.68,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Splatter",
+                image : "images-&-videos/Viscous/ability1"
+            },
+            ability2 :{
+                name : "The Cube",
+                image : "images-&-videos/Viscous/ability2"
+            },
+            ability3 :{
+                name : "Puddle Punch",
+                image : "images-&-videos/Viscous/ability3"
+            },
+            ability4 :{
+                name : "Goo Ball",
+                image : "images-&-videos/Viscous/ability4"
+            }
+        },
+        showcase : "images-&-videos/Viscous/showcase"
+    },
+    {
+        name : "Vyper", 
+        description : "A slippery lizard with a frightening fire rate, Vyper is a character that is quite unique amongst the Deadlock landscape. Vyper benefits greatly from sliding, due to his high fire rate and disproportionally low magazine size. Her Slither is a passive ability that grants her the ability to slide longer, up hills, and turn faster. This allows her to fire an infinite amount of bullets during his slide, and simply dash once more to start yet another slide. Her Screwjab Dagger deals Spirit damage, and applies a fading movement slow, allowing her to chase his targets easier. Her Lethal Venom injects her opponent with venom, and after a short delay, deals Spirit damage. This damage is amplified by the amount of missing health of the target. Finally, Vyper’s ultimate, Petrifying Bola, slows and damages all enemies in the area. Enemies that are directly hit take additional Spirit damage, and applies Petrify to them instead of a slow. Vyper’s weakness is her low accuracy with her weapon, and her dependence on always having stamina to dash.",
+        loreEntry : `
+        <p style = "margin-bottom: 50px">
+            When it comes to breaking the law, not getting caught is a pretty important part of the job. Vyper never got that memo. Luckily for her, if there’s one thing she’s better at than being arrested, it’s escaping out of jail.
+        </p>  
+
+        <p>
+            Having done time in every major prison in the tri-state area, Vyper has built an impressive network of street level lowlifes that owe her one. She’s also built an impressive network of street level lowlifes that want her dead, but she tries to focus on the positive.
+        </p> 
+            `,
+        weaponInfo : `Vyper’s weapon, The Rattler, is a two-handed rifle with an insane fire rate. The Rattler seems to fire pellets, but don’t be fooled, they deal heavy damage.`,
+        weaponStats : {
+            damagePerSecond: 90.0,
+            bulletDamage: 6.30,
+            ammo: 24,
+            bulletsPerSecond: 14.3,
+            reloadTime: 1.60,
+            bulletVelocity: 411,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `15 → 33` 
+        },
+        weaponImage: "images-&-videos/Vyper/weapon",
+        healthStats: {
+            healthPoints: 700, 
+            healthRegen: 2.0 ,
+            moveSpeed: 7.0,
+            sprintSpeed: 2.0, 
+            dashSpeed: 0.68,
+            stamina: 4
+        },
+        abilities: {
+            ability1 :{
+                name : "Screwjab Dagger",
+                image : "images-&-videos/Vyper/ability1"
+            },
+            ability2 :{
+                name : "Lethal Venom",
+                image : "images-&-videos/Vyper/ability2"
+            },
+            ability3 :{
+                name : "Slither",
+                image : "images-&-videos/Vyper/ability3"
+            },
+            ability4 :{
+                name : "Petrifying Bola",
+                image : "images-&-videos/Vyper/ability4"
+            }
+        },
+        showcase : "images-&-videos/Vyper/showcase"
+    },
+    {
+        name : "Warden", 
+        description : "A tough military man and an excellent brawler, Warden is an alchemist with the ability to deal all kinds of damage and sustain himself. His Alchemical Flask deals Spirit damage and applies both a movement slow and weapon damage debuff, reducing his opponent’s ability to fight back against the fearsome soldier. His Binding Word capitalizes upon the reduced movement speed, immobilizing enemies that do not escape the radius within a short time. His Willpower gives him a barrier and bonus movement speed, allowing him to stay in his opponent’s faces and deal damage consistently. His ultimate, Last Stand, deals Spirit damage, and heals based on the damage done in the ult. Last Stand deals damage in a cone in front of him. His weaknesses are characters with the ability to deal damage from a long distance, as his abilities do not have much range.",
+        loreEntry : `
+        <p style = "margin-bottom: 50px">
+            Most people think the supernatural came into the world 50 years ago. They’re wrong. Its presence shaped folklore for generations… and as long as there have been people afraid of the shadows, there have been those who dedicated their lives to fighting in them.
+        </p>  
+
+        <p style = "margin-bottom: 50px">
+            Coming from a lineage of militant alchemists, Warden’s family always trained for the day they would have to stave off a mystic apocalypse… but as time passed the importance of the lessons seemed less and less important. What once was viewed as a sincere warning slowly morphed into being perceived as amusing anecdotes told by their superstitious grandparents.
+        </p> 
+
+        <p>
+            When the portal opened in Central Park, Warden’s parents realized not only was everything they were told was true, they were unprepared. Refusing to let the next generation fall asleep on the job, Warden was trained since birth to be a supernatural killing machine with one purpose: stopping the Patrons from ever entering our world.
+        </p> 
+            `,
+        weaponInfo : `Warden’s weapon, Freedom’s Cost, is a two-handed weapon that Warden wields with military precision.`,
+        weaponStats : {
+            damagePerSecond: 57.1,
+            bulletDamage: 15.0,
+            ammo: 17,
+            bulletsPerSecond: 3.81,
+            reloadTime: 2.91,
+            bulletVelocity: 290,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `20 → 58` 
+        },
+        weaponImage: "images-&-videos/Warden/weapon",
+        healthStats: {
+            healthPoints: 725, 
+            healthRegen: 3.0 ,
+            moveSpeed: 6.3,
+            sprintSpeed: 2.0, 
+            dashSpeed: 0.68,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Alchemical Flask",
+                image : "images-&-videos/Warden/ability1"
+            },
+            ability2 :{
+                name : "Willpower",
+                image : "images-&-videos/Warden/ability2"
+            },
+            ability3 :{
+                name : "Binding Word",
+                image : "images-&-videos/Warden/ability3"
+            },
+            ability4 :{
+                name : "Last Stand",
+                image : "images-&-videos/Warden/ability4"
+            }
+        },
+        showcase : "images-&-videos/Warden/showcase"
+    },
+    {
+        name : "Wraith", 
+        description : "While operating a massive underground gambling scene in New York, Wraith proves to her adversaries why you shouldn’t get in her way. A damage dealer that is a hybrid between gun and spirit damage, Wraith shoots her opponents with her trusty Tommy gun while charging her first ability, Card Tricks, which flies in the direction of her crosshair dealing bursts of spirit damage. If she ever needs to get to a place or escape quickly, she can always teleport using Project Mind, but if she’s forced to fight it out then her Full Auto boosts her and her allies fire rate while also giving herself lifesteal when fully leveled. Wraith can also decide who on the enemy team is getting put out of the fight first using Telekinesis, which lifts the enemy up into the air and slam them into the ground to silence and disarm them afterwards.",
+        loreEntry : `
+        <p>
+            The cornerstone of the New York gambling scene, Wraith's organization is about as open a secret as it comes. However, thanks to a non-trivial amount of bribes, shakedowns, and blackmail, Wraith knows that she's above the law.
+        </p> 
+            `,
+        weaponInfo : `The Rake is a gun with a similar model to a Thompson submachine gun, with a high fire rate that shoots at a medium range.`,
+        weaponStats : {
+            damagePerSecond: 54.1,
+            bulletDamage: 5.12,
+            ammo: 52,
+            bulletsPerSecond: 10.6,
+            reloadTime: 2.82,
+            bulletVelocity: 572,
+            lightMeleeDamage: 50,
+            heavyMeleeDamage: 116,
+            weaponFalloffRange: `18 → 52` 
+        },
+        weaponImage: "images-&-videos/Wraith/weapon",
+        healthStats: {
+            healthPoints: 650, 
+            healthRegen: 2.0 ,
+            moveSpeed: 7.3,
+            sprintSpeed: 2.0, 
+            dashSpeed: 0.68,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Card Trick",
+                image : "images-&-videos/Wraith/ability1"
+            },
+            ability2 :{
+                name : "Prject Mind",
+                image : "images-&-videos/Wraith/ability2"
+            },
+            ability3 :{
+                name : "Full Auto",
+                image : "images-&-videos/Wraith/ability3"
+            },
+            ability4 :{
+                name : "Telekinesis",
+                image : "images-&-videos/Wraith/ability4"
+            }
+        },
+        showcase : "images-&-videos/Wraith/showcase"
+    },
+    {
+        name : "Yamato", 
+        description : "A cunning swordwoman, Yamato excels in close range duels. With her sword, she can perform a Power Slash, sending forth a spectral form of herself forwards and slashing the enemy, dealing Spirit Damage. Her Crimson Slash deals Spirit damage, heals Yamato, and slows the fire rate of her opponents. Her Flying Strike allows her to grapple onto an enemy, and pulls Yamato towards them. From there, she can deal damage much better, allowing her some very intricate combos to maximize her damage. Her ultimate, Shadow Transformation, refreshes her abilities and reduces their cooldowns, and gives her greatly increased spirit and bullet resist, allowing her to fight longer fights as well. Whenever Yamato gets an elimination during her ultimate, the duration is increased, allowing her to fight longer.",
+        loreEntry : `
+        <p style = "margin-bottom: 50px">
+            犯罪組織のボスの家に生まれた花桜梨とその兄の大和にとって、
+            父の死後に「セブンスムーン」の跡目を継ぐのは自明のことでもあった。
+            そして何年もの間、かれらは対等の立場で組織を率いて利益と成功を
+            もたらし、やがてはアメリカへの進出をも目論むようになった。
+        </p>  
+
+        <p style = "margin-bottom: 50px">
+            思い描いていた計画は単純で、 大和がアメリカに渡って花桜梨の
+            国際的な存在感を高め、その間花桜梨は日本に残って国内を統制する、
+            といったものだった。 兄妹にとって不運だったのは、花桜梨が日本で
+            指揮をとるという計画を快く思わない部下たちがいたことだった。
+        </p> 
+
+        <p style = "margin-bottom: 50px">
+            そして迅速かつ暴力的な形で、反乱は発生した。大和は花桜梨を
+            守るために命を落とし、花桜梨と数人の忠実な部下たちは、
+            その大和の犠牲のおかげもあって、日本からアメリカへと
+            逃げ延びることに成功した。
+
+        </p>
+
+        <p>
+            アメリカに着いた花桜梨たちを出迎えたのは、本来であれば大和が
+            会う予定となっていた男であった。彼は日本人の名前になじみが
+            なかったため性別の区別がついておらず、花桜梨のことを
+            「ヤマト」と呼んだ。花桜梨は男の間違いを正そうと思ったが、
+            結局そのままにした。兄の記憶を残し続けるためにも、その名を名乗り、
+            その夢を受け継ぐことが最善の道であろうと考えたからだ。
+        </p> 
+            `,
+        weaponInfo : `Yamato’s sword, Sister’s Lament, is a katana that she wields on her left hip, while throwing shuriken and exploding bombs from the right hand .`,
+        weaponStats : {
+            damagePerSecond: 60.5,
+            bulletDamage: 5.09,
+            ammo: 12,
+            bulletsPerSecond: 2.38,
+            reloadTime: 2.44,
+            bulletVelocity: 254,
+            lightMeleeDamage: 55,
+            heavyMeleeDamage: 128,
+            weaponFalloffRange: `20 → 46` 
+        },
+        weaponImage: "images-&-videos/Yamato/weapon",
+        healthStats: {
+            healthPoints: 725, 
+            healthRegen: 3.0 ,
+            moveSpeed: 6.3,
+            sprintSpeed: 2.0, 
+            dashSpeed: 0.68,
+            stamina: 3
+        },
+        abilities: {
+            ability1 :{
+                name : "Power Slash",
+                image : "images-&-videos/Yamato/ability1"
+            },
+            ability2 :{
+                name : "Flying Strike",
+                image : "images-&-videos/Yamato/ability2"
+            },
+            ability3 :{
+                name : "Crimson Slash",
+                image : "images-&-videos/Yamato/ability3"
+            },
+            ability4 :{
+                name : "Shadow Transformation",
+                image : "images-&-videos/Yamato/ability4"
+            }
+        },
+        showcase : "images-&-videos/Yamato/showcase"
+    }
 ]
