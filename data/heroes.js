@@ -1,3 +1,29 @@
+class Hero{
+    name;
+    description;
+    loreEntry;
+    weaponInfo;
+    weaponStats;
+    weaponImage;
+    healthStats;
+    abilities;
+    showcase;
+
+    constructor(heroList){
+        this.name = heroList.name;
+        this.description = heroList.description;
+        this.loreEntry = heroList.loreEntry;
+        this.weaponInfo = heroList.weaponInfo;
+        this.weaponStats = heroList.weaponStats;
+        this.healthStats = heroList.healthStats;
+        this.abilities = heroList.abilities;
+        this.showcase = heroList.showcase;
+    }
+
+}
+
+
+
 export const heroes = [
     {
         name : "Abrams", 
@@ -215,7 +241,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "/Deadlock Images & Videos/Doorman/weapon",
+        weaponImage: "/Deadlock Images & Videos/The Doorman/weapon",
         healthStats: {
             healthPoints: 675, 
             healthRegen: 2.0 ,
@@ -227,22 +253,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Call Bell",
-                image : "/Deadlock Images & Videos/Doorman/ability1"
+                image : "/Deadlock Images & Videos/The Doorman/ability1"
             },
             ability2 :{
                 name : "Doorway",
-                image : "/Deadlock Images & Videos/Doorman/ability2"
+                image : "/Deadlock Images & Videos/The Doorman/ability2"
             },
             ability3 :{
                 name : "Luggage Cart",
-                image : "/Deadlock Images & Videos/Doorman/ability3"
+                image : "/Deadlock Images & Videos/The Doorman/ability3"
             },
             ability4 :{
                 name : "Hotel Guest",
-                image : "/Deadlock Images & Videos/Doorman/ability4"
+                image : "/Deadlock Images & Videos/The Doorman/ability4"
             }
         },
-        showcase : "/Deadlock Images & Videos/Doorman/showcase"
+        showcase : "/Deadlock Images & Videos/The Doorman/showcase"
     },
     {
         name : "Drifter", 
@@ -620,67 +646,6 @@ export const heroes = [
             }
         },
         showcase : "/Deadlock Images & Videos/Ivy/showcase"
-    },
-    {
-        name : "Kelvin", 
-        description : "Kelvin, an undead arctic scientist, has a plethora of ice-based abilities that slows down opponents and can heal his teammates. His Frost Grenade has the capability to deal a chunk of Spirit Damage, but also can be used to heal teammates. If used offensively, his Frost Grenade explodes, creating a cloud of subzero air, slowing enemies. His floating Ice Path allows him maneuverability around the map, allowing him to manage waves and jungle denizens very efficiently, and can reach locations where he is needed quickly. His Arctic Beam shoots a beam of freezing energy that deals Spirit damage and gradually reduces the enemies movement and fire rates, but this sacrifices Kelvin’s movement speed. Kelvin’s Frozen Shelter creates a dome of ice that can not be entered or left until the duration of the ultimate has ended, and rapidly regenerates the health of Kelvin and his allies.",
-        loreEntry : `
-        <p style="margin-bottom = 50px">
-            A famed adventuring scientist, Kelvin made it his life's mission to explore and understand the unknowable. So naturally when rumors surfaced regarding an 8th astral gate hidden in the arctic, Kelvin couldn't build an expedition team fast enough. Assembling the brightest minds of his generation, Kelvin and his team set forth with much fanfare.
-        </p>
-
-        <p style="margin-bottom = 50px">
-            They never returned.
-        </p>
-
-        <p style="margin-bottom = 50px">
-            A year and a half later the frozen body of Kelvin was found by a fishing trawler, his corpse clutching a rock etched with glowing runes. The crew chipped away at the ice, looking to get a closer look at the body and were shocked when Kelvin opened his eyes. They checked his vitals... there was no pulse. They sought to bandage his open wounds... there was no blood. And yet, impossibly, Kelvin was "alive".
-        </p>
-
-        <p>
-            Having no memory of what happened on the expedition, Kelvin is looking for answers.
-        </p>
-            `,
-        weaponInfo : `Kelvin’s frost gun, Expedition’s End, shoots blasts of ice at his enemies, an homage to his life’s work in the Arctic, and to his untimely end. He wields Expedition’s End in his right hand.`,
-        weaponStats : {
-            damagePerSecond: 7,
-            bulletDamage: 4.40,
-            ammo: 33,
-            bulletsPerSecond: 13.6,
-            reloadTime: 2.44,
-            bulletVelocity: 572,
-            lightMeleeDamage: 43,
-            heavyMeleeDamage: 99,
-            weaponFalloffRange: `20 → 58` 
-        },
-        weaponImage: "/Deadlock Images & Videos/Kelvin/weapon",
-        healthStats: {
-            healthPoints: 800, 
-            healthRegen: 2.0 ,
-            moveSpeed: 6.8,
-            sprintSpeed: 1.5, 
-            dashSpeed: 0.70 ,
-            stamina: 3
-        },
-        abilities: {
-            ability1 :{
-                name : "Frost Grenade",
-                image : "/Deadlock Images & Videos/Kelvin/ability1"
-            },
-            ability2 :{
-                name : "Ice Path",
-                image : "/Deadlock Images & Videos/Kelvin/ability2"
-            },
-            ability3 :{
-                name : "Arctic Beam",
-                image : "/Deadlock Images & Videos/Kelvin/ability3"
-            },
-            ability4 :{
-                name : "Frozen Beam",
-                image : "/Deadlock Images & Videos/Kelvin/ability4"
-            }
-        },
-        showcase : "/Deadlock Images & Videos/Kelvin/showcase"
     },
     {
         name : "Kelvin", 
@@ -1131,67 +1096,6 @@ export const heroes = [
         showcase : "/Deadlock Images & Videos/Paige/showcase"
     },
     {
-        name : "Paige", 
-        description : "Paige is a bookworm character that brings fantasies from her favourite novels to life. She can summon dragons through her ability, Conjure Dragons, which summons a dragon from a book she throws, and leaves a fire trail behind the dragon. Her Captivating Read immobilizes enemies, making them vulnerable to her and her teammates' attacks. Her defensive ability, Defend and Fight!, is a defensive ability that can give herself and her teammates a barrier that also increases the target’s weapon damage, both of which can be increased through Spirit scaling. Her ultimate, Rallying Charge, is a group of spectral knights on their steeds which can charge through the entire map, healing allies and dealing Spirit damage to enemies and stunning them. Overall, she is an incredible support character that can deal good Spirit damage, but does not particularly shine. Her weaknesses include 1 on 1 fights, as her projectile weapon has an incredibly low bullet velocity, such to the point where even securing minion orbs is a difficult task.",
-        loreEntry : `
-        <p style = "margin-bottom: 50px">
-            The daughter of a rare book dealer, Paige grew up in a loving home that prioritized kindness, magic, and storytelling. But while Paige took naturally to her parents' values, her little brother Bryce did not.
-        </p>
-
-        <p style = "margin-bottom: 50px">
-            A rebellious teen, Bryce resented not only his family’s saccharine attitude, but also their refusal to let him dabble in magics that they deemed too dangerous. Paige tried everything she could think of to keep him out of trouble, but like most teenagers, the more his big sister tried to tell him what was best for him, the more he turned away.
-        </p>
-        
-        <p style = "margin-bottom: 50px">
-            Paige doesn't know what Bryce did to get kicked out of the house...just that she came home from the library to find her brother gone and her parents crying.
-        </p>
-
-        <p>
-        Days turned to weeks, to months, to years. Paige grew to become a talented bibliomancer, making a living as a storyteller reading at libraries across the five boroughs; and while her parents have remained silent about what happened with Bryce, Paige's obsession with finding him has only grown. She will discover what happened to her brother... and no man or god is going to stand in her way.
-        </p>
-            `,
-        weaponInfo : `Her book, Chapter’s End, is a projectile weapon that she holds with both of her hands, and is the source from which she makes spectral creations come true.`,
-        weaponStats : {
-            damagePerSecond: 58.3,
-            bulletDamage: 35.0,
-            ammo: 14,
-            bulletsPerSecond: 2.00,
-            reloadTime: 2.50,
-            bulletVelocity: 37.7,
-            lightMeleeDamage: 42,
-            heavyMeleeDamage: 120,
-            weaponFalloffRange: `20 → 58` 
-        },
-        weaponImage: "/Deadlock Images & Videos/Paige/weapon",
-        healthStats: {
-            healthPoints: 600, 
-            healthRegen: 2.0 ,
-            moveSpeed: 7.0,
-            sprintSpeed: 4.0, 
-            dashSpeed: 0.68,
-            stamina: 2
-        },
-        abilities: {
-            ability1 :{
-                name : "Conjure Dragon",
-                image : "/Deadlock Images & Videos/Paige/ability1"
-            },
-            ability2 :{
-                name : "Defend and Fight!",
-                image : "/Deadlock Images & Videos/Paige/ability2"
-            },
-            ability3 :{
-                name : "Captivating Read",
-                image : "/Deadlock Images & Videos/Paige/ability3"
-            },
-            ability4 :{
-                name : "Rallying Charge",
-                image : "/Deadlock Images & Videos/Paige/ability4"
-            }
-        },
-        showcase : "/Deadlock Images & Videos/Paige/showcase"
-    },
-    {
         name : "Paradox", 
         description : "Be wary of Paradox who wields time manipulating abilities that slow and disrupts the momentum of her enemies. She can throw a Pulse Grenade that applies damage, movement slow, and stacking damage amplification for every pulse that hits her enemy. Whenever Paradox needs cover, she can place a Time Wall that slows down time for any bullet or enemy that walks through it, with the wall later being able to deal max health damage and silence to those who touch it.  With a fully charged and well timed shot with Kinetic Carbine, Paradox is able to deal a significant amount of burst spirit damage and apply a brief time-stop to whoever is hit by the carbine. Lastly, Paradox’s ultimate, Paradoxical Swap fires a projectile that swaps her position with the target that is hit while dealing spirit damage over time to them. In combination with the rest of her abilities, Paradox proves herself to be a tricky opponent while thriving off of the disorder she causes.",
         loreEntry : `
@@ -1426,67 +1330,6 @@ export const heroes = [
             }
         },
         showcase : "/Deadlock Images & Videos/Shiv/showcase"
-    },
-    {
-        name : "Sinclair", 
-        description : "A magician with lethal capabilities, Sinclair excels in maximizing Spirit damage in bursts and making targets vulnerable to his attacks. His Rabbit Hex turns all enemies within its radius to a rabbit, helpless as the team can drive damage into them without consequence. His Vexing Bolt is a bolt of magic whose direction can be manipulated by casting the ability once again, which will make it go in the direction of your crosshair. His Spectral Assistant attacks wherever he does, dealing Spirit damage. Spectral Assistant can also be teleported to, and can fire Vexing Bolts when the main body does. His ultimate, Audience Participation, copies the ultimate of an enemy hero for a short time, and can be casted, albeit it will be weaker. Upgrading his ultimate will make it deal closer to the damage of the actual ultimate. His main weakness is his reliance on Spirit damage, where opponents can build Spirit resistance and reduce his impact.",
-        loreEntry : `
-        <p style = "margin-bottom: 50px">
-            Henry's parents told him he was too young and impulsive to mess with real magic, and so they gave him a deck of cards to play with. He took to sleight of hand naturally and soon was dazzling his classmates with fantastic feats of illusions that were done without mystic artifacts or incantation.
-        </p>  
-
-        <p style = "margin-bottom: 50px">
-            When he was in high school he met Savannah, and their mutual love of stage magic sparked a whirlwind romance. Soon they fell in love and created an act together. Obviously they were meant to be; and so at prom, Henry proposed to Savannah and they married soon after graduation.
-        </p> 
-
-        <p style = "margin-bottom: 50px">
-            Unsurprisingly both sets of parents were not thrilled at this prospect, but Henry and Savannah knew they were soulmates. And so they cemented their love for one another by having a blood mystic bind their souls for eternity.
-        </p>
-
-        <p>
-            When an on-stage accident claimed both their lives, no one was sure who to blame. Henry claims Savannah was out of position. Savannah says Henry didn't wait for his cue. But one thing's for sure, since their souls are tied to each other neither one of them have been able to move on. Now a bickering pair of ghosts, Henry and Savannah need to work together if they want to have any chance of undoing their eternal union.
-        </p>
-            `,
-        weaponInfo : `Sinclair’s wand, The Prestige, is a magic wand that you would see in a magician that practices simple card tricks’ hand. Don’t be fooled, the magic that this wand produces does some real damage. He wields the wand in his right hand.`,
-        weaponStats : {
-            damagePerSecond: 46.3,
-            bulletDamage: 17.0,
-            ammo: 16,
-            bulletsPerSecond: 1.90,
-            reloadTime: 2.50,
-            bulletVelocity: 300,
-            lightMeleeDamage: 50,
-            heavyMeleeDamage: 116,
-            weaponFalloffRange: `25  → 61` 
-        },
-        weaponImage: "/Deadlock Images & Videos/Sinclair/weapon",
-        healthStats: {
-            healthPoints: 700, 
-            healthRegen: 3.0 ,
-            moveSpeed: 7.3,
-            sprintSpeed: 2.0, 
-            dashSpeed: 0.68,
-            stamina: 3
-        },
-        abilities: {
-            ability1 :{
-                name : "Vexing Bolt",
-                image : "/Deadlock Images & Videos/Sinclair/ability1"
-            },
-            ability2 :{
-                name : "Spectral Assistant",
-                image : "/Deadlock Images & Videos/Sinclair/ability2"
-            },
-            ability3 :{
-                name : "Rabbit Hex",
-                image : "/Deadlock Images & Videos/Sinclair/ability3"
-            },
-            ability4 :{
-                name : "Audience Participation",
-                image : "/Deadlock Images & Videos/Sinclair/ability4"
-            }
-        },
-        showcase : "/Deadlock Images & Videos/Sinclair/showcase"
     },
     {
         name : "Sinclair", 
@@ -1943,4 +1786,6 @@ export const heroes = [
         },
         showcase : "/Deadlock Images & Videos/Yamato/showcase"
     }
-]
+].map((hero)=>{
+    return new Hero(hero);
+});

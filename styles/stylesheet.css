@@ -19,3 +19,13 @@ display:none;
   width: 100%;
   height: auto;
 }
+
+body{
+  background-color: rgb(37, 33, 36);
+  border-style: none;
+  padding-top: 105px;
+}
+
+button{
+  background-color: rgb(37, 33, 36);
+}

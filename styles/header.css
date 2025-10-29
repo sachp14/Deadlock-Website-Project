@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Reaver';
+  src: url('/fonts/Reaver/woff2/reaver-bold-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: bold;
+  font-display: swap;
+}
+
 .top-bar{
   display: flex;
   padding-right: 15px;
@@ -10,16 +18,17 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
-  border-bottom-style: solid;
+  z-index: 100;
+  height: 100px;
+
   flex-direction: row;
+  background-color: rgba(34, 31, 33);
 }
 
 .top-left{
   display:inline-block;
   width: 33%;
   height: 100%;
-  background-color: aliceblue;
 }
 
 .top-center{
@@ -28,19 +37,38 @@
   height: 100%;
   align-items: center;
   justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .top-right{
   display: inline-block;
   width: 33%;
   height: 100%;
-  background-color: aquamarine;
 }
 
 .home-page-button{
   height: 100%;
+  width: 150px;
+  border-style: none;
+  background-color: rgba(34, 31, 33);
+}
+
+.home-page-button:hover{
+  cursor: pointer;
 }
 
 .button-image{
-  height: 50px;
+  height: 60px;
+}
+
+.button-text{
+  margin-top:0;
+
+  font-family: 'Reaver';
+
+  padding-top: 5px;
+  font-size: 15px;
+
+  color: rgba(239, 222, 191);
 }

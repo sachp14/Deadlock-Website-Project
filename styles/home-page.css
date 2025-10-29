@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Forevs';
+  src: url('/fonts/Forevs/woff2/forevsdemo-bold-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: bold;
+  font-display: swap;
+}
+
+
+
+.hero-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:20px;
+    gap:20px;
+}
+
+@media (max-width:900px){
+    .hero-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:1500px){
+    .hero-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:1900px){
+    .hero-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+.hero-render{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.hero-button{
+    position: relative;
+    border-style: none;
+    width:100%;
+    height:auto;
+    padding:0;
+    display:block;
+    aspect-ratio: 3/3.2;
+    overflow:hidden;
+}
+
+.hero-button:hover{
+    cursor: pointer;
+}
+
+.hero-text{
+    font-family: 'Forevs';
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: rgba(239, 222, 191);
+    font-size: 50px;
+    margin: 0;
+}
+
+
