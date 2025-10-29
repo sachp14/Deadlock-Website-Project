@@ -18,7 +18,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponRange: `20 → 46` ,
         },
-        weaponImage: "images-&-videos/Abrams/weapon",
+        weaponImage: "/Deadlock Images & Videos/Abrams/weapon",
         healthStats: {
             healthPoints: 720, 
             healthRegen: 1.5 ,
@@ -30,22 +30,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Siphon Life",
-                image : "images-&-videos/Abrams/ability1"
+                image : "/Deadlock Images & Videos/Abrams/ability1"
             },
             ability2 :{
                 name : "Shoulder Charge",
-                image : "images-&-videos/Abrams/ability2"
+                image : "/Deadlock Images & Videos/Abrams/ability2"
             },
             ability3 :{
                 name : "Infernal Resilience",
-                image : "images-&-videos/Abrams/ability3"
+                image : "/Deadlock Images & Videos/Abrams/ability3"
             },
             ability4 :{
                 name : "Seismic Impact",
-                image : "images-&-videos/Abrams/ability4"
+                image : "/Deadlock Images & Videos/Abrams/ability4"
             }
         },
-        showcase : "images-&-videos/Abrams/showcase"
+        showcase : "/Deadlock Images & Videos/Abrams/showcase"
     },
        {
         name : "Bebop", 
@@ -66,7 +66,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 51` 
         },
-        weaponImage: "images-&-videos/Bebop/weapon",
+        weaponImage: "/Deadlock Images & Videos/Bebop/weapon",
         healthStats: {
             healthPoints: 800, 
             healthRegen: 1.5 ,
@@ -78,22 +78,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Exploding Uppercut",
-                image : "images-&-videos/Bebop/ability1"
+                image : "/Deadlock Images & Videos/Bebop/ability1"
             },
             ability2 :{
                 name : "Sticky Bomb",
-                image : "images-&-videos/Bebop/ability2"
+                image : "/Deadlock Images & Videos/Bebop/ability2"
             },
             ability3 :{
                 name : "Grapple Arm",
-                image : "images-&-videos/Bebop/ability3"
+                image : "/Deadlock Images & Videos/Bebop/ability3"
             },
             ability4 :{
                 name : "Hyper Beam",
-                image : "images-&-videos/Bebop/ability4"
+                image : "/Deadlock Images & Videos/Bebop/ability4"
             }
         },
-        showcase : "images-&-videos/Bebop/showcase"
+        showcase : "/Deadlock Images & Videos/Bebop/showcase"
     },
     {
         name : "Billy", 
@@ -115,7 +115,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `14 → 32` 
         },
-        weaponImage: "images-&-videos/Billy/weapon",
+        weaponImage: "/Deadlock Images & Videos/Billy/weapon",
         healthStats: {
             healthPoints: 730, 
             healthRegen: 3 ,
@@ -127,22 +127,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Bashdown",
-                image : "images-&-videos/Billy/ability1"
+                image : "/Deadlock Images & Videos/Billy/ability1"
             },
             ability2 :{
                 name : "Rising Ram",
-                image : "images-&-videos/Billy/ability2"
+                image : "/Deadlock Images & Videos/Billy/ability2"
             },
             ability3 :{
                 name : "Blasted",
-                image : "images-&-videos/Billy/ability3"
+                image : "/Deadlock Images & Videos/Billy/ability3"
             },
             ability4 :{
                 name : "Chain Gang",
-                image : "images-&-videos/Billy/ability4"
+                image : "/Deadlock Images & Videos/Billy/ability4"
             }
         },
-        showcase : "images-&-videos/Billy/showcase"
+        showcase : "/Deadlock Images & Videos/Billy/showcase"
     },
     {
         name : "Calico", 
@@ -165,7 +165,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Calico/weapon",
+        weaponImage: "/Deadlock Images & Videos/Calico/weapon",
         healthStats: {
             healthPoints: 650, 
             healthRegen: 2.0 ,
@@ -177,22 +177,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Gloom Bombs",
-                image : "images-&-videos/Calico/ability1"
+                image : "/Deadlock Images & Videos/Calico/ability1"
             },
             ability2 :{
                 name : "Leaping Slash",
-                image : "images-&-videos/Calico/ability2"
+                image : "/Deadlock Images & Videos/Calico/ability2"
             },
             ability3 :{
                 name : "Ava",
-                image : "images-&-videos/Calico/ability3"
+                image : "/Deadlock Images & Videos/Calico/ability3"
             },
             ability4 :{
                 name : "Return To Shadows",
-                image : "images-&-videos/Calico/ability4"
+                image : "/Deadlock Images & Videos/Calico/ability4"
             }
         },
-        showcase : "images-&-videos/Calico/showcase"
+        showcase : "/Deadlock Images & Videos/Calico/showcase"
     },
     {
         name : "The Doorman", 
@@ -215,7 +215,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Doorman/weapon",
+        weaponImage: "/Deadlock Images & Videos/Doorman/weapon",
         healthStats: {
             healthPoints: 675, 
             healthRegen: 2.0 ,
@@ -227,22 +227,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Call Bell",
-                image : "images-&-videos/Doorman/ability1"
+                image : "/Deadlock Images & Videos/Doorman/ability1"
             },
             ability2 :{
                 name : "Doorway",
-                image : "images-&-videos/Doorman/ability2"
+                image : "/Deadlock Images & Videos/Doorman/ability2"
             },
             ability3 :{
                 name : "Luggage Cart",
-                image : "images-&-videos/Doorman/ability3"
+                image : "/Deadlock Images & Videos/Doorman/ability3"
             },
             ability4 :{
                 name : "Hotel Guest",
-                image : "images-&-videos/Doorman/ability4"
+                image : "/Deadlock Images & Videos/Doorman/ability4"
             }
         },
-        showcase : "images-&-videos/Doorman/showcase"
+        showcase : "/Deadlock Images & Videos/Doorman/showcase"
     },
     {
         name : "Drifter", 
@@ -265,7 +265,7 @@ export const heroes = [
             heavyMeleeDamage: 120,
             weaponFalloffRange: `24 → 27` 
         },
-        weaponImage: "images-&-videos/Drifter/weapon",
+        weaponImage: "/Deadlock Images & Videos/Drifter/weapon",
         healthStats: {
             healthPoints: 750, 
             healthRegen: 2.5 ,
@@ -277,22 +277,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Call Bell",
-                image : "images-&-videos/Drifter/ability1"
+                image : "/Deadlock Images & Videos/Drifter/ability1"
             },
             ability2 :{
                 name : "Doorway",
-                image : "images-&-videos/Drifter/ability2"
+                image : "/Deadlock Images & Videos/Drifter/ability2"
             },
             ability3 :{
                 name : "Luggage Cart",
-                image : "images-&-videos/Drifter/ability3"
+                image : "/Deadlock Images & Videos/Drifter/ability3"
             },
             ability4 :{
                 name : "Hotel Guest",
-                image : "images-&-videos/Drifter/ability4"
+                image : "/Deadlock Images & Videos/Drifter/ability4"
             }
         },
-        showcase : "images-&-videos/Drifter/showcase"
+        showcase : "/Deadlock Images & Videos/Drifter/showcase"
     },
     {
         name : "Dynamo", 
@@ -315,7 +315,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Dynamo/weapon",
+        weaponImage: "/Deadlock Images & Videos/Dynamo/weapon",
         healthStats: {
             healthPoints: 800, 
             healthRegen: 2.0 ,
@@ -327,22 +327,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Kinetic Pulse",
-                image : "images-&-videos/Dynamo/ability1"
+                image : "/Deadlock Images & Videos/Dynamo/ability1"
             },
             ability2 :{
                 name : "Quantum Entanglement",
-                image : "images-&-videos/Dynamo/ability2"
+                image : "/Deadlock Images & Videos/Dynamo/ability2"
             },
             ability3 :{
                 name : "Rejuvenating Aurora",
-                image : "images-&-videos/Dynamo/ability3"
+                image : "/Deadlock Images & Videos/Dynamo/ability3"
             },
             ability4 :{
                 name : "Singularity",
-                image : "images-&-videos/Dynamo/ability4"
+                image : "/Deadlock Images & Videos/Dynamo/ability4"
             }
         },
-        showcase : "images-&-videos/Dynamo/showcase"
+        showcase : "/Deadlock Images & Videos/Dynamo/showcase"
     },
     {
         name : "Grey Talon", 
@@ -377,7 +377,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `18 → 54` 
         },
-        weaponImage: "images-&-videos/Grey-Talon/weapon",
+        weaponImage: "/Deadlock Images & Videos/Grey-Talon/weapon",
         healthStats: {
             healthPoints: 700, 
             healthRegen: 1.5 ,
@@ -389,22 +389,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Charged Shot",
-                image : "images-&-videos/Grey-Talon/ability1"
+                image : "/Deadlock Images & Videos/Grey-Talon/ability1"
             },
             ability2 :{
                 name : "Rain of Arrows",
-                image : "images-&-videos/Grey-Talon/ability2"
+                image : "/Deadlock Images & Videos/Grey-Talon/ability2"
             },
             ability3 :{
                 name : "Spirit Snare",
-                image : "images-&-videos/Grey-Talon/ability3"
+                image : "/Deadlock Images & Videos/Grey-Talon/ability3"
             },
             ability4 :{
                 name : "Guided Owl",
-                image : "images-&-videos/Grey-Talon/ability4"
+                image : "/Deadlock Images & Videos/Grey-Talon/ability4"
             }
         },
-        showcase : "images-&-videos/Grey-Talon/showcase"
+        showcase : "/Deadlock Images & Videos/Grey-Talon/showcase"
     },
     {
         name : "Haze", 
@@ -430,7 +430,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 46` 
         },
-        weaponImage: "images-&-videos/Haze/weapon",
+        weaponImage: "/Deadlock Images & Videos/Haze/weapon",
         healthStats: {
             healthPoints: 650, 
             healthRegen: 2.0 ,
@@ -442,22 +442,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Sleep Dagger",
-                image : "images-&-videos/Haze/ability1"
+                image : "/Deadlock Images & Videos/Haze/ability1"
             },
             ability2 :{
                 name : "Smoke Bomb",
-                image : "images-&-videos/Haze/ability2"
+                image : "/Deadlock Images & Videos/Haze/ability2"
             },
             ability3 :{
                 name : "Fixation",
-                image : "images-&-videos/Haze/ability3"
+                image : "/Deadlock Images & Videos/Haze/ability3"
             },
             ability4 :{
                 name : "Bullet Dance",
-                image : "images-&-videos/Haze/ability4"
+                image : "/Deadlock Images & Videos/Haze/ability4"
             }
         },
-        showcase : "images-&-videos/Haze/showcase"
+        showcase : "/Deadlock Images & Videos/Haze/showcase"
     },
     {
         name : "Holliday", 
@@ -486,7 +486,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Holliday/weapon",
+        weaponImage: "/Deadlock Images & Videos/Holliday/weapon",
         healthStats: {
             healthPoints: 700, 
             healthRegen: 2.0 ,
@@ -498,22 +498,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Powder Keg",
-                image : "images-&-videos/Holliday/ability1"
+                image : "/Deadlock Images & Videos/Holliday/ability1"
             },
             ability2 :{
                 name : "Bounce Pad",
-                image : "images-&-videos/Holliday/ability2"
+                image : "/Deadlock Images & Videos/Holliday/ability2"
             },
             ability3 :{
                 name : "Crack Shot",
-                image : "images-&-videos/Holliday/ability3"
+                image : "/Deadlock Images & Videos/Holliday/ability3"
             },
             ability4 :{
                 name : "Spirit Lasso",
-                image : "images-&-videos/Holliday/ability4"
+                image : "/Deadlock Images & Videos/Holliday/ability4"
             }
         },
-        showcase : "images-&-videos/Holliday/showcase"
+        showcase : "/Deadlock Images & Videos/Holliday/showcase"
     },
     {
         name : "Infernus", 
@@ -535,7 +535,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Infernus/weapon",
+        weaponImage: "/Deadlock Images & Videos/Infernus/weapon",
         healthStats: {
             healthPoints: 700, 
             healthRegen: 2.0 ,
@@ -547,22 +547,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Napalm",
-                image : "images-&-videos/Infernus/ability1"
+                image : "/Deadlock Images & Videos/Infernus/ability1"
             },
             ability2 :{
                 name : "Flame Dash",
-                image : "images-&-videos/Infernus/ability2"
+                image : "/Deadlock Images & Videos/Infernus/ability2"
             },
             ability3 :{
                 name : "Afterburn",
-                image : "images-&-videos/Infernus/ability3"
+                image : "/Deadlock Images & Videos/Infernus/ability3"
             },
             ability4 :{
                 name : "Concussive Combustion",
-                image : "images-&-videos/Infernus/ability4"
+                image : "/Deadlock Images & Videos/Infernus/ability4"
             }
         },
-        showcase : "images-&-videos/Infernus/showcase"
+        showcase : "/Deadlock Images & Videos/Infernus/showcase"
     },
     {
         name : "Ivy", 
@@ -592,7 +592,7 @@ export const heroes = [
             heavyMeleeDamage: 99,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Ivy/weapon",
+        weaponImage: "/Deadlock Images & Videos/Ivy/weapon",
         healthStats: {
             healthPoints: 675, 
             healthRegen: 2.0 ,
@@ -604,22 +604,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Kudzu Bomb",
-                image : "images-&-videos/Ivy/ability1"
+                image : "/Deadlock Images & Videos/Ivy/ability1"
             },
             ability2 :{
                 name : "Watcher's Covenant",
-                image : "images-&-videos/Ivy/ability2"
+                image : "/Deadlock Images & Videos/Ivy/ability2"
             },
             ability3 :{
                 name : "Stone Form",
-                image : "images-&-videos/Ivy/ability3"
+                image : "/Deadlock Images & Videos/Ivy/ability3"
             },
             ability4 :{
                 name : "Air Drop",
-                image : "images-&-videos/Ivy/ability4"
+                image : "/Deadlock Images & Videos/Ivy/ability4"
             }
         },
-        showcase : "images-&-videos/Ivy/showcase"
+        showcase : "/Deadlock Images & Videos/Ivy/showcase"
     },
     {
         name : "Kelvin", 
@@ -653,7 +653,7 @@ export const heroes = [
             heavyMeleeDamage: 99,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Kelvin/weapon",
+        weaponImage: "/Deadlock Images & Videos/Kelvin/weapon",
         healthStats: {
             healthPoints: 800, 
             healthRegen: 2.0 ,
@@ -665,22 +665,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Frost Grenade",
-                image : "images-&-videos/Kelvin/ability1"
+                image : "/Deadlock Images & Videos/Kelvin/ability1"
             },
             ability2 :{
                 name : "Ice Path",
-                image : "images-&-videos/Kelvin/ability2"
+                image : "/Deadlock Images & Videos/Kelvin/ability2"
             },
             ability3 :{
                 name : "Arctic Beam",
-                image : "images-&-videos/Kelvin/ability3"
+                image : "/Deadlock Images & Videos/Kelvin/ability3"
             },
             ability4 :{
                 name : "Frozen Beam",
-                image : "images-&-videos/Kelvin/ability4"
+                image : "/Deadlock Images & Videos/Kelvin/ability4"
             }
         },
-        showcase : "images-&-videos/Kelvin/showcase"
+        showcase : "/Deadlock Images & Videos/Kelvin/showcase"
     },
     {
         name : "Kelvin", 
@@ -714,7 +714,7 @@ export const heroes = [
             heavyMeleeDamage: 99,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Kelvin/weapon",
+        weaponImage: "/Deadlock Images & Videos/Kelvin/weapon",
         healthStats: {
             healthPoints: 800, 
             healthRegen: 2.0 ,
@@ -726,22 +726,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Frost Grenade",
-                image : "images-&-videos/Kelvin/ability1"
+                image : "/Deadlock Images & Videos/Kelvin/ability1"
             },
             ability2 :{
                 name : "Ice Path",
-                image : "images-&-videos/Kelvin/ability2"
+                image : "/Deadlock Images & Videos/Kelvin/ability2"
             },
             ability3 :{
                 name : "Arctic Beam",
-                image : "images-&-videos/Kelvin/ability3"
+                image : "/Deadlock Images & Videos/Kelvin/ability3"
             },
             ability4 :{
                 name : "Frozen Beam",
-                image : "images-&-videos/Kelvin/ability4"
+                image : "/Deadlock Images & Videos/Kelvin/ability4"
             }
         },
-        showcase : "images-&-videos/Kelvin/showcase"
+        showcase : "/Deadlock Images & Videos/Kelvin/showcase"
     },
     {
         name : "Lady Geist", 
@@ -771,7 +771,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Lady-Geist/weapon",
+        weaponImage: "/Deadlock Images & Videos/Lady-Geist/weapon",
         healthStats: {
             healthPoints: 800, 
             healthRegen: 1.0 ,
@@ -783,22 +783,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Essence Bomb",
-                image : "images-&-videos/Lady-Geist/ability1"
+                image : "/Deadlock Images & Videos/Lady-Geist/ability1"
             },
             ability2 :{
                 name : "Life Drain",
-                image : "images-&-videos/Lady-Geist/ability2"
+                image : "/Deadlock Images & Videos/Lady-Geist/ability2"
             },
             ability3 :{
                 name : "Malice",
-                image : "images-&-videos/Lady-Geist/ability3"
+                image : "/Deadlock Images & Videos/Lady-Geist/ability3"
             },
             ability4 :{
                 name : "Soul Exchange",
-                image : "images-&-videos/Lady-Geist/ability4"
+                image : "/Deadlock Images & Videos/Lady-Geist/ability4"
             }
         },
-        showcase : "images-&-videos/Lady-Geist/showcase"
+        showcase : "/Deadlock Images & Videos/Lady-Geist/showcase"
     },
     {
         name : "Lash", 
@@ -820,7 +820,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Lash/weapon",
+        weaponImage: "/Deadlock Images & Videos/Lash/weapon",
         healthStats: {
             healthPoints: 700, 
             healthRegen: 2.0 ,
@@ -832,22 +832,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Ground Strike",
-                image : "images-&-videos/Lash/ability1"
+                image : "/Deadlock Images & Videos/Lash/ability1"
             },
             ability2 :{
                 name : "Grapple",
-                image : "images-&-videos/Lash/ability2"
+                image : "/Deadlock Images & Videos/Lash/ability2"
             },
             ability3 :{
                 name : "Flog",
-                image : "images-&-videos/Lash/ability3"
+                image : "/Deadlock Images & Videos/Lash/ability3"
             },
             ability4 :{
                 name : "Death Slam",
-                image : "images-&-videos/Lash/ability4"
+                image : "/Deadlock Images & Videos/Lash/ability4"
             }
         },
-        showcase : "images-&-videos/Lash/showcase"
+        showcase : "/Deadlock Images & Videos/Lash/showcase"
     },
     {
         name : "McGinnis", 
@@ -873,7 +873,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/McGinnis/weapon",
+        weaponImage: "/Deadlock Images & Videos/McGinnis/weapon",
         healthStats: {
             healthPoints: 700, 
             healthRegen: 2.0 ,
@@ -885,22 +885,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Mini Turret",
-                image : "images-&-videos/McGinnis/ability1"
+                image : "/Deadlock Images & Videos/McGinnis/ability1"
             },
             ability2 :{
                 name : "Medicinal Specter",
-                image : "images-&-videos/McGinnis/ability2"
+                image : "/Deadlock Images & Videos/McGinnis/ability2"
             },
             ability3 :{
                 name : "Spectral Wall",
-                image : "images-&-videos/McGinnis/ability3"
+                image : "/Deadlock Images & Videos/McGinnis/ability3"
             },
             ability4 :{
                 name : "Heavy Barrage",
-                image : "images-&-videos/McGinnis/ability4"
+                image : "/Deadlock Images & Videos/McGinnis/ability4"
             }
         },
-        showcase : "images-&-videos/McGinnis/showcase"
+        showcase : "/Deadlock Images & Videos/McGinnis/showcase"
     }, 
     {
         name : "Mina", 
@@ -938,7 +938,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 46` 
         },
-        weaponImage: "images-&-videos/Mina/weapon",
+        weaponImage: "/Deadlock Images & Videos/Mina/weapon",
         healthStats: {
             healthPoints: 580, 
             healthRegen: 2.0 ,
@@ -950,22 +950,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Rake",
-                image : "images-&-videos/Mina/ability1"
+                image : "/Deadlock Images & Videos/Mina/ability1"
             },
             ability2 :{
                 name : "Sanguine Retreat",
-                image : "images-&-videos/Mina/ability2"
+                image : "/Deadlock Images & Videos/Mina/ability2"
             },
             ability3 :{
                 name : "Love Bites",
-                image : "images-&-videos/Mina/ability3"
+                image : "/Deadlock Images & Videos/Mina/ability3"
             },
             ability4 :{
                 name : "Nox Nostra",
-                image : "images-&-videos/Mina/ability4"
+                image : "/Deadlock Images & Videos/Mina/ability4"
             }
         },
-        showcase : "images-&-videos/Mina/showcase"
+        showcase : "/Deadlock Images & Videos/Mina/showcase"
     },
     {
         name : "Mirage", 
@@ -991,7 +991,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Mirage/weapon",
+        weaponImage: "/Deadlock Images & Videos/Mirage/weapon",
         healthStats: {
             healthPoints: 650, 
             healthRegen: 2.0 ,
@@ -1003,22 +1003,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Fire Scarabs",
-                image : "images-&-videos/Mirage/ability1"
+                image : "/Deadlock Images & Videos/Mirage/ability1"
             },
             ability2 :{
                 name : "Tornado",
-                image : "images-&-videos/Mirage/ability2"
+                image : "/Deadlock Images & Videos/Mirage/ability2"
             },
             ability3 :{
                 name : "Djinn's Mark",
-                image : "images-&-videos/Mirage/ability3"
+                image : "/Deadlock Images & Videos/Mirage/ability3"
             },
             ability4 :{
                 name : "Traveler",
-                image : "images-&-videos/Mirage/ability4"
+                image : "/Deadlock Images & Videos/Mirage/ability4"
             }
         },
-        showcase : "images-&-videos/Mirage/showcase"
+        showcase : "/Deadlock Images & Videos/Mirage/showcase"
     },
     {
         name : "Mo & Krill", 
@@ -1040,7 +1040,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Mo-&-Krill/weapon",
+        weaponImage: "/Deadlock Images & Videos/Mo-&-Krill/weapon",
         healthStats: {
             healthPoints: 850, 
             healthRegen: 3.0 ,
@@ -1052,22 +1052,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Scorn",
-                image : "images-&-videos/Mo-&-Krill/ability1"
+                image : "/Deadlock Images & Videos/Mo-&-Krill/ability1"
             },
             ability2 :{
                 name : "Burrow",
-                image : "images-&-videos/Mo-&-Krill/ability2"
+                image : "/Deadlock Images & Videos/Mo-&-Krill/ability2"
             },
             ability3 :{
                 name : "Sand Blast",
-                image : "images-&-videos/Mo-&-Krill/ability3"
+                image : "/Deadlock Images & Videos/Mo-&-Krill/ability3"
             },
             ability4 :{
                 name : "Combo",
-                image : "images-&-videos/Mo-&-Krill/ability4"
+                image : "/Deadlock Images & Videos/Mo-&-Krill/ability4"
             }
         },
-        showcase : "images-&-videos/Mo-&-Krill/showcase"
+        showcase : "/Deadlock Images & Videos/Mo-&-Krill/showcase"
     }, 
     {
         name : "Paige", 
@@ -1101,7 +1101,7 @@ export const heroes = [
             heavyMeleeDamage: 120,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Paige/weapon",
+        weaponImage: "/Deadlock Images & Videos/Paige/weapon",
         healthStats: {
             healthPoints: 600, 
             healthRegen: 2.0 ,
@@ -1113,22 +1113,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Conjure Dragon",
-                image : "images-&-videos/Paige/ability1"
+                image : "/Deadlock Images & Videos/Paige/ability1"
             },
             ability2 :{
                 name : "Defend and Fight!",
-                image : "images-&-videos/Paige/ability2"
+                image : "/Deadlock Images & Videos/Paige/ability2"
             },
             ability3 :{
                 name : "Captivating Read",
-                image : "images-&-videos/Paige/ability3"
+                image : "/Deadlock Images & Videos/Paige/ability3"
             },
             ability4 :{
                 name : "Rallying Charge",
-                image : "images-&-videos/Paige/ability4"
+                image : "/Deadlock Images & Videos/Paige/ability4"
             }
         },
-        showcase : "images-&-videos/Paige/showcase"
+        showcase : "/Deadlock Images & Videos/Paige/showcase"
     },
     {
         name : "Paige", 
@@ -1162,7 +1162,7 @@ export const heroes = [
             heavyMeleeDamage: 120,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Paige/weapon",
+        weaponImage: "/Deadlock Images & Videos/Paige/weapon",
         healthStats: {
             healthPoints: 600, 
             healthRegen: 2.0 ,
@@ -1174,22 +1174,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Conjure Dragon",
-                image : "images-&-videos/Paige/ability1"
+                image : "/Deadlock Images & Videos/Paige/ability1"
             },
             ability2 :{
                 name : "Defend and Fight!",
-                image : "images-&-videos/Paige/ability2"
+                image : "/Deadlock Images & Videos/Paige/ability2"
             },
             ability3 :{
                 name : "Captivating Read",
-                image : "images-&-videos/Paige/ability3"
+                image : "/Deadlock Images & Videos/Paige/ability3"
             },
             ability4 :{
                 name : "Rallying Charge",
-                image : "images-&-videos/Paige/ability4"
+                image : "/Deadlock Images & Videos/Paige/ability4"
             }
         },
-        showcase : "images-&-videos/Paige/showcase"
+        showcase : "/Deadlock Images & Videos/Paige/showcase"
     },
     {
         name : "Paradox", 
@@ -1215,7 +1215,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Paradox/weapon",
+        weaponImage: "/Deadlock Images & Videos/Paradox/weapon",
         healthStats: {
             healthPoints: 700, 
             healthRegen: 2.0 ,
@@ -1227,22 +1227,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Pulse Grenade",
-                image : "images-&-videos/Paradox/ability1"
+                image : "/Deadlock Images & Videos/Paradox/ability1"
             },
             ability2 :{
                 name : "Time Wall",
-                image : "images-&-videos/Paradox/ability2"
+                image : "/Deadlock Images & Videos/Paradox/ability2"
             },
             ability3 :{
                 name : "Kinetic Carbine",
-                image : "images-&-videos/Paradox/ability3"
+                image : "/Deadlock Images & Videos/Paradox/ability3"
             },
             ability4 :{
                 name : "Paradoxical Swap",
-                image : "images-&-videos/Paradox/ability4"
+                image : "/Deadlock Images & Videos/Paradox/ability4"
             }
         },
-        showcase : "images-&-videos/Paradox/showcase"
+        showcase : "/Deadlock Images & Videos/Paradox/showcase"
     },
     {
         name : "Pocket", 
@@ -1268,7 +1268,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `16 → 46` 
         },
-        weaponImage: "images-&-videos/Pocket/weapon",
+        weaponImage: "/Deadlock Images & Videos/Pocket/weapon",
         healthStats: {
             healthPoints: 700, 
             healthRegen: 2.0 ,
@@ -1280,22 +1280,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Barrage",
-                image : "images-&-videos/Pocket/ability1"
+                image : "/Deadlock Images & Videos/Pocket/ability1"
             },
             ability2 :{
                 name : "Flying Cloak",
-                image : "images-&-videos/Pocket/ability2"
+                image : "/Deadlock Images & Videos/Pocket/ability2"
             },
             ability3 :{
                 name : "Enchanter's Satchel",
-                image : "images-&-videos/Pocket/ability3"
+                image : "/Deadlock Images & Videos/Pocket/ability3"
             },
             ability4 :{
                 name : "Affliction",
-                image : "images-&-videos/Pocket/ability4"
+                image : "/Deadlock Images & Videos/Pocket/ability4"
             }
         },
-        showcase : "images-&-videos/Pocket/showcase"
+        showcase : "/Deadlock Images & Videos/Pocket/showcase"
     },
     {
         name : "Seven", 
@@ -1345,7 +1345,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Seven/weapon",
+        weaponImage: "/Deadlock Images & Videos/Seven/weapon",
         healthStats: {
             healthPoints: 650, 
             healthRegen: 1.0 ,
@@ -1357,22 +1357,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Lightning Ball",
-                image : "images-&-videos/Seven/ability1"
+                image : "/Deadlock Images & Videos/Seven/ability1"
             },
             ability2 :{
                 name : "Static Charge",
-                image : "images-&-videos/Seven/ability2"
+                image : "/Deadlock Images & Videos/Seven/ability2"
             },
             ability3 :{
                 name : "Power Surge",
-                image : "images-&-videos/Seven/ability3"
+                image : "/Deadlock Images & Videos/Seven/ability3"
             },
             ability4 :{
                 name : "Storm Cloud",
-                image : "images-&-videos/Seven/ability4"
+                image : "/Deadlock Images & Videos/Seven/ability4"
             }
         },
-        showcase : "images-&-videos/Seven/showcase"
+        showcase : "/Deadlock Images & Videos/Seven/showcase"
     },
     {
         name : "Shiv", 
@@ -1398,7 +1398,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 41` 
         },
-        weaponImage: "images-&-videos/Shiv/weapon",
+        weaponImage: "/Deadlock Images & Videos/Shiv/weapon",
         healthStats: {
             healthPoints: 750, 
             healthRegen: 2.0 ,
@@ -1410,22 +1410,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Serrated Knives",
-                image : "images-&-videos/Shiv/ability1"
+                image : "/Deadlock Images & Videos/Shiv/ability1"
             },
             ability2 :{
                 name : "Slice and Dice",
-                image : "images-&-videos/Shiv/ability2"
+                image : "/Deadlock Images & Videos/Shiv/ability2"
             },
             ability3 :{
                 name : "Bloodletting",
-                image : "images-&-videos/Shiv/ability3"
+                image : "/Deadlock Images & Videos/Shiv/ability3"
             },
             ability4 :{
                 name : "Killing Blow",
-                image : "images-&-videos/Shiv/ability4"
+                image : "/Deadlock Images & Videos/Shiv/ability4"
             }
         },
-        showcase : "images-&-videos/Shiv/showcase"
+        showcase : "/Deadlock Images & Videos/Shiv/showcase"
     },
     {
         name : "Sinclair", 
@@ -1459,7 +1459,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `25  → 61` 
         },
-        weaponImage: "images-&-videos/Sinclair/weapon",
+        weaponImage: "/Deadlock Images & Videos/Sinclair/weapon",
         healthStats: {
             healthPoints: 700, 
             healthRegen: 3.0 ,
@@ -1471,22 +1471,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Vexing Bolt",
-                image : "images-&-videos/Sinclair/ability1"
+                image : "/Deadlock Images & Videos/Sinclair/ability1"
             },
             ability2 :{
                 name : "Spectral Assistant",
-                image : "images-&-videos/Sinclair/ability2"
+                image : "/Deadlock Images & Videos/Sinclair/ability2"
             },
             ability3 :{
                 name : "Rabbit Hex",
-                image : "images-&-videos/Sinclair/ability3"
+                image : "/Deadlock Images & Videos/Sinclair/ability3"
             },
             ability4 :{
                 name : "Audience Participation",
-                image : "images-&-videos/Sinclair/ability4"
+                image : "/Deadlock Images & Videos/Sinclair/ability4"
             }
         },
-        showcase : "images-&-videos/Sinclair/showcase"
+        showcase : "/Deadlock Images & Videos/Sinclair/showcase"
     },
     {
         name : "Sinclair", 
@@ -1520,7 +1520,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `25  → 61` 
         },
-        weaponImage: "images-&-videos/Sinclair/weapon",
+        weaponImage: "/Deadlock Images & Videos/Sinclair/weapon",
         healthStats: {
             healthPoints: 700, 
             healthRegen: 3.0 ,
@@ -1532,22 +1532,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Vexing Bolt",
-                image : "images-&-videos/Sinclair/ability1"
+                image : "/Deadlock Images & Videos/Sinclair/ability1"
             },
             ability2 :{
                 name : "Spectral Assistant",
-                image : "images-&-videos/Sinclair/ability2"
+                image : "/Deadlock Images & Videos/Sinclair/ability2"
             },
             ability3 :{
                 name : "Rabbit Hex",
-                image : "images-&-videos/Sinclair/ability3"
+                image : "/Deadlock Images & Videos/Sinclair/ability3"
             },
             ability4 :{
                 name : "Audience Participation",
-                image : "images-&-videos/Sinclair/ability4"
+                image : "/Deadlock Images & Videos/Sinclair/ability4"
             }
         },
-        showcase : "images-&-videos/Sinclair/showcase"
+        showcase : "/Deadlock Images & Videos/Sinclair/showcase"
     },
     {
         name : "Victor", 
@@ -1573,7 +1573,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20  → 58` 
         },
-        weaponImage: "images-&-videos/Victor/weapon",
+        weaponImage: "/Deadlock Images & Videos/Victor/weapon",
         healthStats: {
             healthPoints: 680, 
             healthRegen: 3.0 ,
@@ -1585,22 +1585,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Pain Battery",
-                image : "images-&-videos/Victor/ability1"
+                image : "/Deadlock Images & Videos/Victor/ability1"
             },
             ability2 :{
                 name : "Jumpstart",
-                image : "images-&-videos/Victor/ability2"
+                image : "/Deadlock Images & Videos/Victor/ability2"
             },
             ability3 :{
                 name : "Aura of Suffering",
-                image : "images-&-videos/Victor/ability3"
+                image : "/Deadlock Images & Videos/Victor/ability3"
             },
             ability4 :{
                 name : "Shocking Reanimation",
-                image : "images-&-videos/Victor/ability4"
+                image : "/Deadlock Images & Videos/Victor/ability4"
             }
         },
-        showcase : "images-&-videos/Victor/showcase"
+        showcase : "/Deadlock Images & Videos/Victor/showcase"
     },
     {
         name : "Vindicta", 
@@ -1626,7 +1626,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20  → 64` 
         },
-        weaponImage: "images-&-videos/Vindicta/weapon",
+        weaponImage: "/Deadlock Images & Videos/Vindicta/weapon",
         healthStats: {
             healthPoints: 675, 
             healthRegen: 2.0 ,
@@ -1638,22 +1638,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Stake",
-                image : "images-&-videos/Vindicta/ability1"
+                image : "/Deadlock Images & Videos/Vindicta/ability1"
             },
             ability2 :{
                 name : "Flight",
-                image : "images-&-videos/Vindicta/ability2"
+                image : "/Deadlock Images & Videos/Vindicta/ability2"
             },
             ability3 :{
                 name : "Crow Familiar",
-                image : "images-&-videos/Vindicta/ability3"
+                image : "/Deadlock Images & Videos/Vindicta/ability3"
             },
             ability4 :{
                 name : "Assassinate",
-                image : "images-&-videos/Vindicta/ability4"
+                image : "/Deadlock Images & Videos/Vindicta/ability4"
             }
         },
-        showcase : "images-&-videos/Vindicta/showcase"
+        showcase : "/Deadlock Images & Videos/Vindicta/showcase"
     },
     {
         name : "Viscous", 
@@ -1679,7 +1679,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20  → 58` 
         },
-        weaponImage: "images-&-videos/Viscous/weapon",
+        weaponImage: "/Deadlock Images & Videos/Viscous/weapon",
         healthStats: {
             healthPoints: 700, 
             healthRegen: 2.0 ,
@@ -1691,22 +1691,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Splatter",
-                image : "images-&-videos/Viscous/ability1"
+                image : "/Deadlock Images & Videos/Viscous/ability1"
             },
             ability2 :{
                 name : "The Cube",
-                image : "images-&-videos/Viscous/ability2"
+                image : "/Deadlock Images & Videos/Viscous/ability2"
             },
             ability3 :{
                 name : "Puddle Punch",
-                image : "images-&-videos/Viscous/ability3"
+                image : "/Deadlock Images & Videos/Viscous/ability3"
             },
             ability4 :{
                 name : "Goo Ball",
-                image : "images-&-videos/Viscous/ability4"
+                image : "/Deadlock Images & Videos/Viscous/ability4"
             }
         },
-        showcase : "images-&-videos/Viscous/showcase"
+        showcase : "/Deadlock Images & Videos/Viscous/showcase"
     },
     {
         name : "Vyper", 
@@ -1732,7 +1732,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `15 → 33` 
         },
-        weaponImage: "images-&-videos/Vyper/weapon",
+        weaponImage: "/Deadlock Images & Videos/Vyper/weapon",
         healthStats: {
             healthPoints: 700, 
             healthRegen: 2.0 ,
@@ -1744,22 +1744,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Screwjab Dagger",
-                image : "images-&-videos/Vyper/ability1"
+                image : "/Deadlock Images & Videos/Vyper/ability1"
             },
             ability2 :{
                 name : "Lethal Venom",
-                image : "images-&-videos/Vyper/ability2"
+                image : "/Deadlock Images & Videos/Vyper/ability2"
             },
             ability3 :{
                 name : "Slither",
-                image : "images-&-videos/Vyper/ability3"
+                image : "/Deadlock Images & Videos/Vyper/ability3"
             },
             ability4 :{
                 name : "Petrifying Bola",
-                image : "images-&-videos/Vyper/ability4"
+                image : "/Deadlock Images & Videos/Vyper/ability4"
             }
         },
-        showcase : "images-&-videos/Vyper/showcase"
+        showcase : "/Deadlock Images & Videos/Vyper/showcase"
     },
     {
         name : "Warden", 
@@ -1789,7 +1789,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `20 → 58` 
         },
-        weaponImage: "images-&-videos/Warden/weapon",
+        weaponImage: "/Deadlock Images & Videos/Warden/weapon",
         healthStats: {
             healthPoints: 725, 
             healthRegen: 3.0 ,
@@ -1801,22 +1801,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Alchemical Flask",
-                image : "images-&-videos/Warden/ability1"
+                image : "/Deadlock Images & Videos/Warden/ability1"
             },
             ability2 :{
                 name : "Willpower",
-                image : "images-&-videos/Warden/ability2"
+                image : "/Deadlock Images & Videos/Warden/ability2"
             },
             ability3 :{
                 name : "Binding Word",
-                image : "images-&-videos/Warden/ability3"
+                image : "/Deadlock Images & Videos/Warden/ability3"
             },
             ability4 :{
                 name : "Last Stand",
-                image : "images-&-videos/Warden/ability4"
+                image : "/Deadlock Images & Videos/Warden/ability4"
             }
         },
-        showcase : "images-&-videos/Warden/showcase"
+        showcase : "/Deadlock Images & Videos/Warden/showcase"
     },
     {
         name : "Wraith", 
@@ -1838,7 +1838,7 @@ export const heroes = [
             heavyMeleeDamage: 116,
             weaponFalloffRange: `18 → 52` 
         },
-        weaponImage: "images-&-videos/Wraith/weapon",
+        weaponImage: "/Deadlock Images & Videos/Wraith/weapon",
         healthStats: {
             healthPoints: 650, 
             healthRegen: 2.0 ,
@@ -1850,22 +1850,22 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Card Trick",
-                image : "images-&-videos/Wraith/ability1"
+                image : "/Deadlock Images & Videos/Wraith/ability1"
             },
             ability2 :{
                 name : "Prject Mind",
-                image : "images-&-videos/Wraith/ability2"
+                image : "/Deadlock Images & Videos/Wraith/ability2"
             },
             ability3 :{
                 name : "Full Auto",
-                image : "images-&-videos/Wraith/ability3"
+                image : "/Deadlock Images & Videos/Wraith/ability3"
             },
             ability4 :{
                 name : "Telekinesis",
-                image : "images-&-videos/Wraith/ability4"
+                image : "/Deadlock Images & Videos/Wraith/ability4"
             }
         },
-        showcase : "images-&-videos/Wraith/showcase"
+        showcase : "/Deadlock Images & Videos/Wraith/showcase"
     },
     {
         name : "Yamato", 
@@ -1914,7 +1914,7 @@ export const heroes = [
             heavyMeleeDamage: 128,
             weaponFalloffRange: `20 → 46` 
         },
-        weaponImage: "images-&-videos/Yamato/weapon",
+        weaponImage: "/Deadlock Images & Videos/Yamato/weapon",
         healthStats: {
             healthPoints: 725, 
             healthRegen: 3.0 ,
@@ -1926,21 +1926,21 @@ export const heroes = [
         abilities: {
             ability1 :{
                 name : "Power Slash",
-                image : "images-&-videos/Yamato/ability1"
+                image : "/Deadlock Images & Videos/Yamato/ability1"
             },
             ability2 :{
                 name : "Flying Strike",
-                image : "images-&-videos/Yamato/ability2"
+                image : "/Deadlock Images & Videos/Yamato/ability2"
             },
             ability3 :{
                 name : "Crimson Slash",
-                image : "images-&-videos/Yamato/ability3"
+                image : "/Deadlock Images & Videos/Yamato/ability3"
             },
             ability4 :{
                 name : "Shadow Transformation",
-                image : "images-&-videos/Yamato/ability4"
+                image : "/Deadlock Images & Videos/Yamato/ability4"
             }
         },
-        showcase : "images-&-videos/Yamato/showcase"
+        showcase : "/Deadlock Images & Videos/Yamato/showcase"
     }
 ]
