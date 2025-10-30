@@ -6,6 +6,15 @@ video::-webkit-media-controls-mute-button {
 display:none;
 }
 
+@font-face {
+  font-family: 'Forevs';
+  src: url('/fonts/Forevs/forevsdemo-medium.otf') format('woff2');
+  font-weight: 400;
+  font-style: medium; 
+  font-display: swap;
+}
+
+
 
 .video-container{
   position: relative;
@@ -28,4 +37,24 @@ body{
 
 button{
   background-color: rgb(37, 33, 36);
+}
+
+.bottom-bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  color: rgb(103, 103, 103);
+  bottom: 0;
+
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top:20px;
+
+  border-top-style: solid;
+  border-top-color:rgb(103, 103, 103);
+
+}
+
+.footnote{
+  font-family: 'Forevs';
 }
