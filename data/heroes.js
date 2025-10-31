@@ -28,9 +28,9 @@ export const heroes = [
     {
         name : "Abrams", 
         description : "Abrams is a close range tank character that excels in using his shotgun and melee’s to deal high burst damage while having consistent sustainability. His abilities help him sustain himself through lifesteal and regeneration effects, as well as apply stun effects to make it easier for Abrams to land heavy melee hits for maximum damage. He excels highly in the close range, and if supplied with the proper items, can become an unkillable monster in team fights and 1v1 situations. His ability to deal high burst damage through melee attacks comes with a downside; the parry mechanic in the game. If Abrams gets parried, there is a very high chance that the opposition will target you, causing you to take massive damage, and possibly causing you to limp out of a team fight, or worse, dead. ",
-        loreEntry : `<p style = "margin-bottom: 50px">Hard hitting, hard headed, and hard drinking; Detective Abrams has been a fixture on the New York investigating scene for years. From stolen art, to missing persons, to ritual murders; Abrams didn't just take any case that came across his desk... he solved them.</p>
-    <p style = "margin-bottom: 50px">But his days of following cheating spouses came to an end the day he opened his office door and found The Tome sitting on his desk.</p>
-    <p style = "margin-bottom: 50px">No instruction was left for him save for a brief note scrawled in onyx blood that read "Don't let them have it". Abrams hasn't figured where the thing came from; but seeing as his home has been broken into, his office tossed on 3 different occasions, and his car firebombed he has a vested interest in figuring out what the hell is going on.</p>
+        loreEntry : `<p style = "margin-bottom: 23px">Hard hitting, hard headed, and hard drinking; Detective Abrams has been a fixture on the New York investigating scene for years. From stolen art, to missing persons, to ritual murders; Abrams didn't just take any case that came across his desk... he solved them.</p>
+    <p style = "margin-bottom: 23px">But his days of following cheating spouses came to an end the day he opened his office door and found The Tome sitting on his desk.</p>
+    <p style = "margin-bottom: 23px">No instruction was left for him save for a brief note scrawled in onyx blood that read "Don't let them have it". Abrams hasn't figured where the thing came from; but seeing as his home has been broken into, his office tossed on 3 different occasions, and his car firebombed he has a vested interest in figuring out what the hell is going on.</p>
         `,
         weaponInfo : `Abrams’ shotgun is known as Case Closed. It is a one-handed shotgun that he holds in his right hand. In his left hand is The Tome that he found on his desk. `,
         weaponStats : {
@@ -124,7 +124,7 @@ export const heroes = [
     {
         name : "Billy", 
         description : "Billy specializes in close range battles and has an incredible close range melee kit that allows for feints and good engagements with his Rising Ram. His Bashdown ability can bring down enemies above him and slams down dealing great Melee and Spirit damage. His Blasted allows him to gain extra health for every heavy melee that is landed, and also passively reloads his weapon for both his heavy and light melee. His ultimate, Chain Gang, allows him to extend fights and bring enemies close to him. His weakness, much like Abrams, is the parry.",
-        loreEntry : `<p style = "margin-bottom: 50px">
+        loreEntry : `<p style = "margin-bottom: 23px">
         Billy is a white hot ball of rage, furious at the very notion of...something. Maybe it’s the cops. Maybe it’s magic regulations. Maybe it’s the service at the gyro place downtown. (Not the good one. The other one.)
         </p>
         <p>Don't ask him how he got the goat head.</p>
@@ -173,7 +173,7 @@ export const heroes = [
     {
         name : "Calico", 
         description : "Calico is yet another close range burst damage character with good engaging abilities and an ultimate that can be used for both disengaging and engaging in a fight. Her Gloom Bombs allow her to deal great burst Spirit damage mid-fight, and her Leaping Slash will allow her to engage and deal a burst of damage as well. Her spectral cat form, Ava, allows her to disengage and become a difficult target to hit while low HP. Her ultimate, Return To Shadows, allows her to become untargetable and deals spirit damage. After the ultimate timer ends, she deals additional Spirit damage, allowing for a great burst of damage to re-engage. She also utilizes melee attacks, which also gives her the weaknesses of her close range brethren, getting parried. ",
-        loreEntry : `<p style = "margin-bottom: 50px">
+        loreEntry : `<p style = "margin-bottom: 23px">
         Once a decorated member of The Baxter Society, Calico left the august order once she realized that killing monsters for free was less profitable than killing people for money. 
         </p>
         
@@ -223,7 +223,7 @@ export const heroes = [
     {
         name : "The Doorman", 
         description : "The Doorman is a Spirit-based damage dealer, with the opportunity to build into Weapon damage as well. His Call Bell is an amazing early-game poke ability, and with the proper items, can deal massive chunks of damage to enemies, making it easy to finish them off. His Doorway, a portal ability, allows versatility during a fight. It can be placed as an escape, or can give you an unexpected angle on the enemy, allowing you to throw Call Bells through the door to deal damage as well. His Luggage Cart can create space for himself, or can engage through its ability to stun the enemy if they hit the wall. His ultimate, Hotel Guest, can take an enemy out of the fight, forcing them to do parkour successfully within an alternate dimension, or take massive Spirit damage.",
-        loreEntry : `<p style = "margin-bottom: 50px">
+        loreEntry : `<p style = "margin-bottom: 23px">
         He’s proper, he’s polite, but the humble Doorman of The Baroness Hotel is more than meets the eye.
         </p>
         
@@ -273,7 +273,7 @@ export const heroes = [
     {
         name : "Drifter", 
         description : "Drifter is an incredible assassin who gets stronger when eliminating enemies who are all alone. His Bloodscent, a passive ability, allows him to detect enemies that are alone, buffs his damage in the moment, and also gives him a permanent Weapon damage buff when eliminating an isolated enemy. His Rend deals both melee and spirit damage, allowing him to bypass their Spirit resistances by dealing heavy melee damage and vice versa. His Stalker’s Mark bleeds enemies through Spirit Damage, and allows Drifter to teleport to their backs to deal damage without them even knowing where he went. His ultimate, Eternal Night, restricts the vision of his enemies and makes their map useless for detecting enemies outside of their sight, making Drifter erratic and unpredictable.",
-        loreEntry : `<p style = "margin-bottom: 50px">
+        loreEntry : `<p style = "margin-bottom: 23px">
         An ancient vampire roaming across America, the nameless monstrosity known as The Drifter has been preying on the living for generations. 
         </p>
         
@@ -323,7 +323,7 @@ export const heroes = [
     {
         name : "Dynamo", 
         description : "Dynamo is a support-style character with the potential to swing team fights on his own.  His Kinetic Pulse can deal huge damage and knockup, as well as debuff enemies both offensively and defenses. Kinetic Pulse can have multiple charges, and the charge count can be buffed with items. His Quantum Entanglement allows for him and his teammates to escape fights by making them temporarily invulnerable while moving them to a new position. His Rejuvenating Aurora heals himself and his teammates who are within the radius, allowing him to leave fights for a short time just to come back at significantly higher HP with his teammates healed as well. His ultimate, Singularity, allows him to make enemies completely unable to fight back, dealing Spirit damage and allowing his teammates free reign on the helpless souls stuck in his Singularity.",
-        loreEntry : `<p style = "margin-bottom: 50px">
+        loreEntry : `<p style = "margin-bottom: 23px">
        As a Scientist, Professor Dynamo always had an inquisitive mind. So when a rift in space and time opened up in central park he was first on the scene to investigate – and while he expected such a majestic sight to be life changing, he was thinking more in a metaphorical way as opposed to having his body atomized and reduced to a tiny dying star.
         </p>
         
@@ -373,19 +373,19 @@ export const heroes = [
     {
         name : "Grey Talon", 
         description : "Grey Talon is a long-range combatant that can snipe his enemies using Charged Shot, dealing a burst of spirit damage while also unleashing a Rain of Arrows from the sky, shooting multiple arrows with a horizontal spread. In combination with his powerful bow, Grey Talon can also throw traps called Spirit Snare that apply a Curse and Movement Slow which can be detonated early when shot at with Charged Shot. And just when you think you’re out of Grey Talon’s reach, his ultimate, Guided Owl, launches a spirit owl that he controls and explodes on impact.",
-        loreEntry : `<p style = "margin-bottom: 50px">
+        loreEntry : `<p style = "margin-bottom: 23px">
        A founding member of "The Baxter Society", Wesley Grey Talon spent close to 40 years hunting monsters that preyed on man before finally deciding to find a replacement and lay down his bow. Grey Talon's duties had meant that he never spent much time with his wife and kid, and now that his son had started a family of his own he realized that this was his last chance to reconnect with the people he loved.
         </p>
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
        Retirement suited Wesley. He made up for lost time with his wife. He doted on his grandkids. He cooked dinner for the whole family every Wednesday. He was happy.
         </p>
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
         Then he got the call.
         </p>
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
         The authorities claimed that it was a freak accident... that the fire consumed his son's house before anyone got a chance to escape. But Wesley knew better. His son's wife was an Ixian who could snuff out flame with a thought. If their bodies were found burned they had to be dead long before there was a fire.
         </p>
         
@@ -435,7 +435,7 @@ export const heroes = [
     {
         name : "Haze", 
         description : "A secret agent working in the Sandman Division of OSIC, Haze is a devastating assassin that eliminates anyone who is caught alone. She can throw a Sleep Dagger that causes them to move slowly while unable to do anything, leaving them vulnerable to attacks, and her Smoke Bomb makes her invisible while increasing her speed, allowing her to sneak up on enemies. Her Fixation passive allows her Weapon damage to ramp up, allowing her to reach new heights with her damage as her fire rate increases. And when you think you have her surrounded, Haze’s ultimate, Bullet Dance, fills a radius around her with bullets while she moves, allowing her to deal bullet damage to a large area and to multiple targets in combination with her Fixation passive.",
-        loreEntry : `<p style = "margin-bottom: 50px">
+        loreEntry : `<p style = "margin-bottom: 23px">
        The Occult Security and Investigation Commission is a black box government organization that makes the CIA look transparent. It falls on the men, women, and entities of the OSIC to keep the country safe from sinister forces that are beyond the capabilities of local law enforcement.
         </p>
 
@@ -488,11 +488,11 @@ export const heroes = [
     {
         name : "Holliday", 
         description : "A secret agent working in the Sandman Division of OSIC, Haze is a devastating assassin that eliminates anyone who is caught alone. She can throw a Sleep Dagger that causes them to move slowly while unable to do anything, leaving them vulnerable to attacks, and her Smoke Bomb makes her invisible while increasing her speed, allowing her to sneak up on enemies. Her Fixation passive allows her Weapon damage to ramp up, allowing her to reach new heights with her damage as her fire rate increases. And when you think you have her surrounded, Haze’s ultimate, Bullet Dance, fills a radius around her with bullets while she moves, allowing her to deal bullet damage to a large area and to multiple targets in combination with her Fixation passive.",
-        loreEntry : `<p style = "margin-bottom: 50px">
+        loreEntry : `<p style = "margin-bottom: 23px">
         There are people who spent their whole lives dreaming about moving to New York. Holliday isn't one of those people. Content with being a Sheriff in a small town, Holliday enjoyed a career where the only time she had to use her gun was when trick shooting at the county fair...then the murders started. 
         <p>
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
         Grisly and inhumane; the bodies were found with their ribcages ripped open... their innards picked apart as if by birds. Holliday tracked down the killer, a travelling folk musician that the media dubbed "The Troubadour", but when she confronted him he exploded into a murder of crows and flew away.
         </p>
 
@@ -594,11 +594,11 @@ export const heroes = [
         name : "Ivy", 
         description : "A gargoyle-turned-vigilante, Ivy is a support that assists her allies in combat through clever use of her abilities. Her Kudzu Bomb spawns a patch of vines that damages and slows any enemy in its radius. When any ally near Ivy can be connected to her, sharing a quarter of their healing and bonuses to their bullet lifesteal and fire rate with Watcher’s Covenant. Additionally, Ivy can punish any enemy that gets too close to her by turning into a massive stone gargoyle that stuns and heals a percentage of her max health when she hits any enemies beneath her using Stone Form. For Ivy’s ultimate, she can grab an ally and take flight with the option to drop them to cause an explosion that knocks up enemies and slows them.",
         loreEntry : `
-        <p style="margin-bottom = 50px">
+        <p style="margin-bottom = 23px">
             The gargoyle didn't know what was happening when it sprang to life... just that a big human and a small human were being hurt. And so the gargoyle leapt to action, sending the attackers fleeing in horror. The small human said thank you and asked the gargoyle's name. The gargoyle didn't have one. And so the small human said, "I'm going to call you Ivy." The gargoyle, being covered in ivy at the time, thought it was a bit obvious, but decided to go along with it for the small human's sake.
         </p>
 
-        <p style="margin-bottom = 50px">
+        <p style="margin-bottom = 23px">
             The humans asked if Ivy would come home with them so they could show their appreciation, and so Ivy walked with them. That night she learned much. The family were called The Arroyo's. The little one, Sophia. Mofongo is what they called a plate of deliciousness. But most importantly, she learned that the people attacking them were called "The Mendoza Syndicate", and they were hurting people...nice people like The Arroyo's.
         </p>
 
@@ -651,15 +651,15 @@ export const heroes = [
         name : "Kelvin", 
         description : "Kelvin, an undead arctic scientist, has a plethora of ice-based abilities that slows down opponents and can heal his teammates. His Frost Grenade has the capability to deal a chunk of Spirit Damage, but also can be used to heal teammates. If used offensively, his Frost Grenade explodes, creating a cloud of subzero air, slowing enemies. His floating Ice Path allows him maneuverability around the map, allowing him to manage waves and jungle denizens very efficiently, and can reach locations where he is needed quickly. His Arctic Beam shoots a beam of freezing energy that deals Spirit damage and gradually reduces the enemies movement and fire rates, but this sacrifices Kelvin’s movement speed. Kelvin’s Frozen Shelter creates a dome of ice that can not be entered or left until the duration of the ultimate has ended, and rapidly regenerates the health of Kelvin and his allies.",
         loreEntry : `
-        <p style="margin-bottom = 50px">
+        <p style="margin-bottom = 23px">
             A famed adventuring scientist, Kelvin made it his life's mission to explore and understand the unknowable. So naturally when rumors surfaced regarding an 8th astral gate hidden in the arctic, Kelvin couldn't build an expedition team fast enough. Assembling the brightest minds of his generation, Kelvin and his team set forth with much fanfare.
         </p>
 
-        <p style="margin-bottom = 50px">
+        <p style="margin-bottom = 23px">
             They never returned.
         </p>
 
-        <p style="margin-bottom = 50px">
+        <p style="margin-bottom = 23px">
             A year and a half later the frozen body of Kelvin was found by a fishing trawler, his corpse clutching a rock etched with glowing runes. The crew chipped away at the ice, looking to get a closer look at the body and were shocked when Kelvin opened his eyes. They checked his vitals... there was no pulse. They sought to bandage his open wounds... there was no blood. And yet, impossibly, Kelvin was "alive".
         </p>
 
@@ -712,11 +712,11 @@ export const heroes = [
         name : "Lady Geist", 
         description : "An old-time socialite who maintains her appearance through taking the life force of others, and her kit as a character reflects that quality. She sacrifices a small portion of her health to deal Spirit damage to enemies through her Essence Bomb, which can be supplemented with items to deal immense damage. Her Life Drain allows her to tether to enemies, weaning off their life force, dealing Spirit damage and healing herself with it. Her Malice shoots a projectile that applies a stack of Malice at the cost of her health. Malice slows the enemy and increases the damage that Lady Geist deals to them. Her ultimate, Soul Exchange, allows you to switch HP values with an opponent, allowing her to take the life force of a healthy opponent and make them weak to turn the tables on them.",
         loreEntry : `
-        <p style="margin-bottom = 50px">
+        <p style="margin-bottom = 23px">
             Once, Lady Jeanne Geist was the toast of the town. But as time passed and her beauty faded she found herself further and further from her glory days in High Society until finally she was nothing more than a frail woman in a nursing home, telling stories of a glorious past. And that’s when Oathkeeper revealed himself. A powerful spirit from another plane, Oathkeeper offered her a path to reclaim her past glories… he could restore her youth; all she had to do was drain the essence of the living to sustain herself.
         </p>
 
-        <p style="margin-bottom = 50px">
+        <p style="margin-bottom = 23px">
             Geist was torn. Obviously murder was ghoulish business, and undoubtedly Oathkeeper was not an entity that could be trusted… but still, the thought of having a second chance of reliving her youth was too good to pass up. And so she concocted a plan: after making a pact with Oathkeeper she would bind and ward him, limiting his influence and pull over her. Oathkeeper would still get fed; but on her terms, not his.
         </p>
 
@@ -818,7 +818,7 @@ export const heroes = [
         name : "McGinnis", 
         description : "The genius inventor and head of Fairfax Industries Military R&D department, McGinnis creates chaos on the battlefield with her structures that lock down any area she places them. If her machine gun wasn’t scary enough, McGinnis can also place down Mini Turrets that deal spirit damage over time and can be devastating if not taken care of. With her Medicinal Specter, she deploys a heal spirit that can increase the fire rate of any ally within its radius, and her Spectral Wall divides the terrain in half while also dealing damage and slowing any enemy nearby. When the situation gets rough, or if the enemies are trying to take cover, McGinnis can unleash a volley of rockets dishing out AOE damage with her ultimate, Heavy Barrage. She can’t aim her rockets too close to herself though, and if she isn’t building gun damage, then taking out her turrets will significantly reduce her damage.",
         loreEntry : `
-        <p style="margin-bottom = 50px">
+        <p style="margin-bottom = 23px">
             Maggie McGinnis always had a knack for building things. At 4 she was using Lincoln Logs to recreate architectural marvels. At 10 she built and rewired a custom light fixture for her parent's anniversary. At 15 she designed a machine that refined the souls of the dead...that last one got a little more attention than the Lincoln Logs.
         </p>
 
@@ -871,19 +871,19 @@ export const heroes = [
         name : "Mina", 
         description : "A vampire who, contrary to popular portrayals of vampires, is a quite frail, but deadly character that has the ability to deal bursts of Spirit damage that only gets stronger over time. Her passive ability, Love Bites, builds up on enemies as she lands bullets on them, and when triggered, deals huge Spirit damage. Her Rake ability is a sweeping motion strike that heals her when enemies are killed using it, allowing her to continue to fight multiple 1 on 1 battles if necessary. Her Sanguine Retreat can be considered one of the best evasive abilities in the game, giving her invulnerability during the channeling phase of the ability. Her ultimate, Nox Nostra, is a shower of bats which Silences enemies and allows her to trigger Love Bites on them in addition to the Spirit damage that the ultimate already deals. If her ultimate triggers Love Bites, the amount of bats released is permanently increased. Her weakness is that she heavily relies on Love Bites, so mobile characters that can evade bullets or builds with high Spirit resistance hinders her abilities.",
         loreEntry : `
-        <p style="margin-bottom = 50px">
+        <p style="margin-bottom = 23px">
             Mina Ha had it all...rich parents, elite education, and an arranged marriage that would see her ascend from run-of-the-mill upper class to American royalty. She was happy.
         </p>
 
-        <p style="margin-bottom = 50px">
+        <p style="margin-bottom = 23px">
             Then her betrothed was assassinated.
         </p>
 
-        <p style="margin-bottom = 50px">
+        <p style="margin-bottom = 23px">
             Mina wept; not for the life of her fiancé, but for the future that was stolen from her. Why couldn’t the killer just wait until after the wedding? Then she’d have the last name she always dreamed of and no one would even have to pretend to love anyone. It could have been perfect, but life wasn’t fair...and so Mina did what she always does when things don’t go her way: she told her parents to fix it.
         </p>
 
-        <p style="margin-bottom = 50px">
+        <p style="margin-bottom = 23px">
             Mr. And Mrs. Ha knew that the only way to appease their daughter was to offer her something greater than what she lost... and marrying into one of the world’s most lauded families was a tall order to top. They had to think big. They had to think outside of the box. They had to promise their daughter immortality.
         </p>
 
@@ -936,7 +936,7 @@ export const heroes = [
         name : "Mirage", 
         description : "Mirage is a damage dealer that excels in the mid-range, with the ability to stun opponents and capitalize on his high Weapon damage, as well as his Djinn’s Mark. His Fire Scarabs siphons the opponents max health and applies bullet resist reduction, further improving his potential as a Weapon damage dealer. His Tornado lifts up enemies and gives Mirage bullet evasion, allowing him to deal damage easily while making it harder for the opposite to happen. His Djinn’s Mark has a passive and active aspect. The passive aspect of the ability applies an increasing multiplier, and when the multiplier either reaches the max or expires, the target suffers Spirit damage. The active aspect will immediately deal the damage that is built up. Mirage’s ultimate, Traveler, can teleport him to a visible ally or enemy on the map, and after completing the teleport, Mirage is granted bonus move speed and fire rate until his next reload. His ultimate allows him to participate in fights when he isn’t even near, and can swing the fight in his team’s favour.",
         loreEntry : `
-        <p style="margin-bottom = 50px">
+        <p style="margin-bottom = 23px">
             The Djinn are one of the more curious groups of people in the modern world. Possessing great power in controlled doses, Djinn are incapable of maintaining corporeal form for longer than 48 minutes without resting within a vessel. As a result, most Djinn employ human bodyguards for transport, protection, and companionship.
         </p>
 
@@ -1038,15 +1038,15 @@ export const heroes = [
         name : "Paige", 
         description : "Paige is a bookworm character that brings fantasies from her favourite novels to life. She can summon dragons through her ability, Conjure Dragons, which summons a dragon from a book she throws, and leaves a fire trail behind the dragon. Her Captivating Read immobilizes enemies, making them vulnerable to her and her teammates' attacks. Her defensive ability, Defend and Fight!, is a defensive ability that can give herself and her teammates a barrier that also increases the target’s weapon damage, both of which can be increased through Spirit scaling. Her ultimate, Rallying Charge, is a group of spectral knights on their steeds which can charge through the entire map, healing allies and dealing Spirit damage to enemies and stunning them. Overall, she is an incredible support character that can deal good Spirit damage, but does not particularly shine. Her weaknesses include 1 on 1 fights, as her projectile weapon has an incredibly low bullet velocity, such to the point where even securing minion orbs is a difficult task.",
         loreEntry : `
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             The daughter of a rare book dealer, Paige grew up in a loving home that prioritized kindness, magic, and storytelling. But while Paige took naturally to her parents' values, her little brother Bryce did not.
         </p>
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             A rebellious teen, Bryce resented not only his family’s saccharine attitude, but also their refusal to let him dabble in magics that they deemed too dangerous. Paige tried everything she could think of to keep him out of trouble, but like most teenagers, the more his big sister tried to tell him what was best for him, the more he turned away.
         </p>
         
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             Paige doesn't know what Bryce did to get kicked out of the house...just that she came home from the library to find her brother gone and her parents crying.
         </p>
 
@@ -1099,7 +1099,7 @@ export const heroes = [
         name : "Paradox", 
         description : "Be wary of Paradox who wields time manipulating abilities that slow and disrupts the momentum of her enemies. She can throw a Pulse Grenade that applies damage, movement slow, and stacking damage amplification for every pulse that hits her enemy. Whenever Paradox needs cover, she can place a Time Wall that slows down time for any bullet or enemy that walks through it, with the wall later being able to deal max health damage and silence to those who touch it.  With a fully charged and well timed shot with Kinetic Carbine, Paradox is able to deal a significant amount of burst spirit damage and apply a brief time-stop to whoever is hit by the carbine. Lastly, Paradox’s ultimate, Paradoxical Swap fires a projectile that swaps her position with the target that is hit while dealing spirit damage over time to them. In combination with the rest of her abilities, Paradox proves herself to be a tricky opponent while thriving off of the disorder she causes.",
         loreEntry : `
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             An artifact of time, and the name of a notorious thieves' guild... one that prides themselves on constructing elaborate heists that target the most untouchable of individuals and institutions. What does Paradox do with the countless artifacts, state secrets, and celebrity paternity tests that they have stolen? Put it on display at pop-up museums, so that they can show the world that no one is out of Paradox’s reach.
         </p>
 
@@ -1152,7 +1152,7 @@ export const heroes = [
         name : "Pocket", 
         description : "Pocket is a character with a highly mobile set of abilities which allows him to excel in using his shotgun in close range. His briefcase fires out projectiles which deal Spirit damage and applies movement slow in their area of effect. On connection, Pocket gains a short increase in all damage that he deals, which benefits him when engaging in fights. His Enchanter’s Satchel can both be used to deal damage and get him out of sticky situations. When he channels into his briefcase, he is invulnerable, and when he pops out of the briefcase, he deals Spirit damage in an explosion. The small explosion radius further compounds his case as a close range character. His Flying Cloak goes through enemies and deals damage to any that the cloak touches, and Pocket can choose to teleport to the cloak at any point in time, as long as the cloak is on the map. His ultimate, Affliction, deals Spirit damage to enemies in a burst and deals Spirit damage over time afterwards. The damage that Affliction deals will never result in an elimination on its own, but easily sets up for even a little damage to end the life of any opponent afflicted by his ultimate. His weakness is mostly characters that are able to shrug off his Spirit damage through resistances, as all of his abilities deal Spirit damage.",
         loreEntry : `
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             Arin Fairfax, the eldest heir to Fairfax Industries, has been living in hiding for the past 5 years after being shot and left for dead on their 18th birthday. Arin doesn't know who is trying to keep them from taking control of their parent's company... but in the avarice fueled viper's nest that is Fairfax Industries it could be anyone.
         </p>
 
@@ -1205,31 +1205,31 @@ export const heroes = [
         name : "Seven", 
         description : "The man with no limitations, Seven unleashes havoc on the battlefield through his mystical mastery over electrical currents. Seven can cast Lightning Balls for his first ability that travels in a straight line while dealing spirit damage to any enemies within its radius. He can also stun enemies with his second ability, Static Charge, that he places on an enemy, with anybody else nearby also getting stunned if they are in its radius. However, Seven’s greatest source of damage is through Power Surge, which makes his bullets proc shock damage that can chain to other targets nearby. Last but not least, Seven’s ultimate, Storm Cloud, covers an entire area with his electrifying powers and deals spirit damage to any enemy within his line of sight. While channeling his ult, he can also strike a targeted area once with a powerful bolt of lightning that knocks back enemies.",
         loreEntry : `
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             When mystic energy awoke on Earth, the world changed... anything was possible. But just because anything WAS possible, didn’t mean that anything SHOULD be possible. And so the government made rules. Laws. A means for US citizens to enjoy the benefits of the supernatural world in safety. But rules and laws are for lesser men. Men with limitations. Men who were not Seven. 
         </p>
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             There are many rumors about what Seven did to land himself in Lost Whisper, an oubliette for the most dangerous of occultists. But there is no doubt about what happened on the night of his execution. 
         </p>
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             Onlookers viewed in horror as the strongest mentalist employed by the US Army’s head popped like a grape. They screamed as Scotland Yard’s premiere occult investigator, the one who allegedly captured Seven, crumbled to ash. Seven's body buckled and writhed against his restraints; his skin burning from eldritch electricity... and yet he would not die. He laughed.
         </p>
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             He laughed as he tore himself free from his bondage.
         </p>
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             He laughed as his captors cowered in fear.
         </p>
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             He laughed as he massacred his tormentors.
         </p>
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             He laughed as he tasted the fresh air that was denied to him for years. 
         </p>  
 
@@ -1282,7 +1282,7 @@ export const heroes = [
         name : "Shiv", 
         description : "The man with no limitations, Seven unleashes havoc on the battlefield through his mystical mastery over electrical currents. Seven can cast Lightning Balls for his first ability that travels in a straight line while dealing spirit damage to any enemies within its radius. He can also stun enemies with his second ability, Static Charge, that he places on an enemy, with anybody else nearby also getting stunned if they are in its radius. However, Seven’s greatest source of damage is through Power Surge, which makes his bullets proc shock damage that can chain to other targets nearby. Last but not least, Seven’s ultimate, Storm Cloud, covers an entire area with his electrifying powers and deals spirit damage to any enemy within his line of sight. While channeling his ult, he can also strike a targeted area once with a powerful bolt of lightning that knocks back enemies.",
         loreEntry : `
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             A loyal member of "The Baxter Society", an international order of monster hunters, Shiv travels across North America looking to put down creatures that prey on the living.
         </p>  
 
@@ -1335,15 +1335,15 @@ export const heroes = [
         name : "Sinclair", 
         description : "A magician with lethal capabilities, Sinclair excels in maximizing Spirit damage in bursts and making targets vulnerable to his attacks. His Rabbit Hex turns all enemies within its radius to a rabbit, helpless as the team can drive damage into them without consequence. His Vexing Bolt is a bolt of magic whose direction can be manipulated by casting the ability once again, which will make it go in the direction of your crosshair. His Spectral Assistant attacks wherever he does, dealing Spirit damage. Spectral Assistant can also be teleported to, and can fire Vexing Bolts when the main body does. His ultimate, Audience Participation, copies the ultimate of an enemy hero for a short time, and can be casted, albeit it will be weaker. Upgrading his ultimate will make it deal closer to the damage of the actual ultimate. His main weakness is his reliance on Spirit damage, where opponents can build Spirit resistance and reduce his impact.",
         loreEntry : `
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             Henry's parents told him he was too young and impulsive to mess with real magic, and so they gave him a deck of cards to play with. He took to sleight of hand naturally and soon was dazzling his classmates with fantastic feats of illusions that were done without mystic artifacts or incantation.
         </p>  
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             When he was in high school he met Savannah, and their mutual love of stage magic sparked a whirlwind romance. Soon they fell in love and created an act together. Obviously they were meant to be; and so at prom, Henry proposed to Savannah and they married soon after graduation.
         </p> 
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             Unsurprisingly both sets of parents were not thrilled at this prospect, but Henry and Savannah knew they were soulmates. And so they cemented their love for one another by having a blood mystic bind their souls for eternity.
         </p>
 
@@ -1396,7 +1396,7 @@ export const heroes = [
         name : "Victor", 
         description : "Victor is a close range brawler that harnesses his pain into a lethal weapon, channeling the damage he receives into Pain Battery in order to dish out a significant amount of spirit damage back towards his enemies. Additionally, his Aura of Suffering causes him to unleash pain onto both himself and his enemies with the damage gradually ramping up to a maximum amount. Despite all the damage Victor inflicts on himself, he can also use Jumpstart to receive a massive burst of healing and movement speed. And when you think you’re about to defeat him, Shocking Reanimation will prove you wrong. Victor revives at full health after receiving lethal damage, with an AOE that deals spirit damage and stuns any enemies near his reanimation.",
         loreEntry : `
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             A lot of people spend their whole lives wondering who they really are. For Victor, this existential question is made more complicated as he woke up on a mortuary table with no knowledge of his creator, why he was made, and whom he is made of.
         </p>  
 
@@ -1449,7 +1449,7 @@ export const heroes = [
         name : "Vindicta", 
         description : "A ghastly sniper who can fly and pick you off from distance, Vindicta excels with dealing with low health targets, and getting them low through Weapon damage. Her Stake binds enemies to the ground and within a certain radius, making it easier for Vindicta to deal damage to them. Her Flight is what it sounds like; it allows Vindicta to fly in the air, adding Spirit damage to her weapon’s damage as well. Her Crow Familiar deals Spirit damage and afterwards applies a bleed. The Crow Familiar also reduces the target's bullet and spirit resistance, allowing Vindicta to further deal Weapon damage to the target with ease. Her ultimate, Assassinate, is an ability that deals a chunk of Spirit damage, and does extra damage to targets after scoping for longer than a second, and if the target is below 50% health. Eliminating a player with Assassinate gives you bonus souls as well, allowing Vindicta to snowball off of her precision. Vindicta’s main weakness is her lack of health and stamina. She has 2 stamina, limiting her movement, and does not have a vast health pool to work with.",
         loreEntry : `
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             A victim of John Hathorne during the Salem Witch Trials, Vindicta got a second chance of life when her spirit was brought back to the mortal plane during the first Maelstrom (the event that introduced the supernatural to the public at large.)
         </p>  
 
@@ -1502,7 +1502,7 @@ export const heroes = [
         name : "Viscous", 
         description : "This psychic sea anemone isn’t one to be underestimated as Viscous can Splatter his enemies with a ball of goo that deals spirit damage, or use his Puddle Punch to knock around both enemies and allies alike. Whenever he or an ally is in a pinch, Viscous can come save the day using The Cube, which encapsulates his target in a cube of restorative goo. If Viscous ever needs an escape or wants to cause maximum chaos, he can morph into a large Goo Ball and roll into his enemies, stunning while dealing spirit damage. Viscous is especially difficult to deal with during the midgame, however, he begins to weaken during the late game as his damage falls off.",
         loreEntry : `
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             The Bermuda Triangle was never a myth, it was a shadowline nexus deep underneath the Atlantic Ocean. For the most part, the things that escaped this astral gate were benign (like Nessie), but now something dark and predatory known only as The Adversary hunts the seas... and ocean denizens are scared to death.
         </p>  
 
@@ -1555,7 +1555,7 @@ export const heroes = [
         name : "Vyper", 
         description : "A slippery lizard with a frightening fire rate, Vyper is a character that is quite unique amongst the Deadlock landscape. Vyper benefits greatly from sliding, due to his high fire rate and disproportionally low magazine size. Her Slither is a passive ability that grants her the ability to slide longer, up hills, and turn faster. This allows her to fire an infinite amount of bullets during his slide, and simply dash once more to start yet another slide. Her Screwjab Dagger deals Spirit damage, and applies a fading movement slow, allowing her to chase his targets easier. Her Lethal Venom injects her opponent with venom, and after a short delay, deals Spirit damage. This damage is amplified by the amount of missing health of the target. Finally, Vyper’s ultimate, Petrifying Bola, slows and damages all enemies in the area. Enemies that are directly hit take additional Spirit damage, and applies Petrify to them instead of a slow. Vyper’s weakness is her low accuracy with her weapon, and her dependence on always having stamina to dash.",
         loreEntry : `
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             When it comes to breaking the law, not getting caught is a pretty important part of the job. Vyper never got that memo. Luckily for her, if there’s one thing she’s better at than being arrested, it’s escaping out of jail.
         </p>  
 
@@ -1608,11 +1608,11 @@ export const heroes = [
         name : "Warden", 
         description : "A tough military man and an excellent brawler, Warden is an alchemist with the ability to deal all kinds of damage and sustain himself. His Alchemical Flask deals Spirit damage and applies both a movement slow and weapon damage debuff, reducing his opponent’s ability to fight back against the fearsome soldier. His Binding Word capitalizes upon the reduced movement speed, immobilizing enemies that do not escape the radius within a short time. His Willpower gives him a barrier and bonus movement speed, allowing him to stay in his opponent’s faces and deal damage consistently. His ultimate, Last Stand, deals Spirit damage, and heals based on the damage done in the ult. Last Stand deals damage in a cone in front of him. His weaknesses are characters with the ability to deal damage from a long distance, as his abilities do not have much range.",
         loreEntry : `
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             Most people think the supernatural came into the world 50 years ago. They’re wrong. Its presence shaped folklore for generations… and as long as there have been people afraid of the shadows, there have been those who dedicated their lives to fighting in them.
         </p>  
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             Coming from a lineage of militant alchemists, Warden’s family always trained for the day they would have to stave off a mystic apocalypse… but as time passed the importance of the lessons seemed less and less important. What once was viewed as a sincere warning slowly morphed into being perceived as amusing anecdotes told by their superstitious grandparents.
         </p> 
 
@@ -1714,21 +1714,21 @@ export const heroes = [
         name : "Yamato", 
         description : "A cunning swordwoman, Yamato excels in close range duels. With her sword, she can perform a Power Slash, sending forth a spectral form of herself forwards and slashing the enemy, dealing Spirit Damage. Her Crimson Slash deals Spirit damage, heals Yamato, and slows the fire rate of her opponents. Her Flying Strike allows her to grapple onto an enemy, and pulls Yamato towards them. From there, she can deal damage much better, allowing her some very intricate combos to maximize her damage. Her ultimate, Shadow Transformation, refreshes her abilities and reduces their cooldowns, and gives her greatly increased spirit and bullet resist, allowing her to fight longer fights as well. Whenever Yamato gets an elimination during her ultimate, the duration is increased, allowing her to fight longer.",
         loreEntry : `
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             犯罪組織のボスの家に生まれた花桜梨とその兄の大和にとって、
             父の死後に「セブンスムーン」の跡目を継ぐのは自明のことでもあった。
             そして何年もの間、かれらは対等の立場で組織を率いて利益と成功を
             もたらし、やがてはアメリカへの進出をも目論むようになった。
         </p>  
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             思い描いていた計画は単純で、 大和がアメリカに渡って花桜梨の
             国際的な存在感を高め、その間花桜梨は日本に残って国内を統制する、
             といったものだった。 兄妹にとって不運だったのは、花桜梨が日本で
             指揮をとるという計画を快く思わない部下たちがいたことだった。
         </p> 
 
-        <p style = "margin-bottom: 50px">
+        <p style = "margin-bottom: 23px">
             そして迅速かつ暴力的な形で、反乱は発生した。大和は花桜梨を
             守るために命を落とし、花桜梨と数人の忠実な部下たちは、
             その大和の犠牲のおかげもあって、日本からアメリカへと

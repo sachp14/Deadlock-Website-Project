@@ -14,13 +14,19 @@
   font-display: swap;
 }
 
-p:not(.footnote, .lore-entry){
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p:not(.footnote, .lore-entry, .damage-per-second, .bullet-damage, .ammo, .reload-time, .bullet-velocity, .light-melee-damage, .heavy-melee-damage, .dmg-falloff){
     color: rgba(239, 222, 191);
     line-height: 22px;
     font-size: 18px;
 }
 
-h2{
+h2:not(.hero-header){
     font-family: 'Forevs';
     color: rgba(239, 222, 191);
     border-bottom: solid;
@@ -81,3 +87,115 @@ h2{
 .ability-image{
     width:100%;
 }
+.content-wrapper{
+    display: flex;
+    flex: 1;
+}
+
+.table-header{
+    font-family: 'Reaver';
+}
+
+.hero-stats{
+    border-style: solid;
+    border-color: rgba(239, 222, 191);
+    border-width: 1px;
+    display: inline-block;
+}
+
+.wiki-sidebar{
+    width: 300px;
+    background-color: #1f2a44;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    margin-top: 15px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.sidebar-header{
+    display:flex;
+    flex-direction: column;
+    background-color: #1f2a33;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-top: 10px;
+}
+
+.stylized-text{
+    width: 85%;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.weapon-stats-header, .health-stats-header{
+    font-family: 'Retail Demo';
+    color: rgba(239, 222, 191);
+}
+
+.weapon-stats-headtext, .health-stats-headtext{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.weapon-stats-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #795312;
+    margin-bottom: 1px;
+}
+
+.weapon-stats-numbers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6a490f;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.weapon-text, .health-text, .dmg-falloff{
+    font-family: 'Retail Demo';
+    color: rgba(239, 222, 191);
+    margin:0;
+    padding: 8px;
+}
+
+.dmg-falloff{
+    font-size: 15px;
+}
+
+.health-stats-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #507913;
+}
+
+.health-stats-numbers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #446710;
+    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
