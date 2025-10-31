@@ -48,14 +48,23 @@
 }
 
 .home-page-button{
-  height: 100%;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  height: 95%;
   width: 150px;
   border-style: none;
   background-color: rgba(34, 31, 33);
+
 }
 
 .home-page-button:hover{
+  transition: border 170ms ease-in; 
   cursor: pointer;
+  border-style: solid;
+  border-color: rgba(239, 222, 191);
+  border-width:1px;
+  border-radius: 17px;
 }
 
 .button-image{

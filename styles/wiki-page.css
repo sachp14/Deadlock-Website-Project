@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Forevs';
+  src: url('/fonts/Forevs/forevsdemo-medium.otf') format('woff2');
+  font-weight: 400;
+  font-style: medium; 
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Retail Demo';
+  src: url('/fonts/Retail Demo/woff2/retaildemo-medium-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: medium; 
+  font-display: swap;
+}
+
+p:not(.footnote, .lore-entry){
+    color: rgba(239, 222, 191);
+    line-height: 22px;
+    font-size: 18px;
+}
+
+h2{
+    font-family: 'Forevs';
+    color: rgba(239, 222, 191);
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.hero-name{
+    font-family: 'Forevs';
+    font-size: 45px;
+    color: rgba(239, 222, 191);
+    border-bottom:solid;
+    border-width: 2px;
+}
+
+.hero-wiki-info{
+    align-self: right;
+}
+
+.content-container{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+.hero-description{
+    font-family:  'Retail Demo';
+    line-height: 22px;
+    font-size: 18px;
+}
+
+
+.lore-entry{
+    font-family: 'Reaver';
+}
+
+.weapon-container{
+    display:flex;
+    flex-direction:column;
+}
+
+.weapon-description{
+    font-family: 'Retail Demo';
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.weapon-image{
+    align-self: center;
+}
+
+.abilities{
+    display:grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 15px;
+}
+
+.ability-image{
+    width:100%;
+}
